@@ -8,5 +8,6 @@ namespace Turistv4.Model
 {
     class Category
     {
+        //THIS IS A COMMENT
     }
 }
