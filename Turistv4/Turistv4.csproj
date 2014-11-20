@@ -113,8 +113,9 @@
     <Compile Include="Common\RelayCommand.cs" />
     <Compile Include="Common\SuspensionManager.cs" />
     <Compile Include="Model\Category.cs" />
+    <Compile Include="Model\Serializable.cs" />
     <Compile Include="Properties\Annotations.cs" />
-    <Compile Include="ViewModel\CreateCommentHandler.cs" />
+    <Compile Include="ViewModel\CommentHandler.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="View\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>

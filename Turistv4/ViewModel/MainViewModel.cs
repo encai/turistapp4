@@ -15,7 +15,7 @@ namespace Turistv4.ViewModel
     class MainViewModel : INotifyPropertyChanged
     {
         private static ObservableCollection<Comment> _comments;
-        private static CreateCommentHandler _opretCommentHandler = new CreateCommentHandler(_comments);
+        private static CommentHandler _opretCommentHandler = new CommentHandler(_comments);
         private RelayCommand _opretCommentCommand;
 
         public static ObservableCollection<Comment> Comments
@@ -30,7 +30,7 @@ namespace Turistv4.ViewModel
             set { _opretCommentCommand = value; }
         }
 
-        public static CreateCommentHandler CreateCommentHandler
+        public static CommentHandler CreateCommentHandler
         {
             get { return _opretCommentHandler; }
             set { _opretCommentHandler = value; }
