@@ -8,9 +8,14 @@ namespace Turistv4.Model
 {
     class Comment
     {
-        private string _comText;
         private int _comRating;
+        private string _comText;
 
+        public Comment(int comRating, string comText)
+        {
+            _comText = comText;
+            _comRating = comRating;
+        }
 
         #region text 
         public string ComText
@@ -24,7 +29,7 @@ namespace Turistv4.Model
         }
         private static void text_length(string value)
         {
-            if (value.Length > 10 || value.Length < 200)
+            if (value.Length >= 10 || value.Length <= 200)
             {
                 throw new ArgumentException("Comment skal være mellem 10 og 200 tegn");
             }
@@ -51,7 +56,6 @@ namespace Turistv4.Model
             }
         }
         #endregion
-
 
         //end off code
     }

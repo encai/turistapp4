@@ -22,12 +22,12 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
-    <Content Include="UMLClassDiagram1.classdiagram">
+    <Content Include="BusinessModel\UMLClassDiagram1.classdiagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="UMLClassDiagram1.classdiagram.layout">
+    <Content Include="BusinessModel\UMLClassDiagram1.classdiagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>UMLClassDiagram1.classdiagram</DependentUpon>
+      <DependentUpon>BusinessModel\UMLClassDiagram1.classdiagram</DependentUpon>
     </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="ModelDefinition\ModelingProject.uml">
@@ -35,6 +35,7 @@
     </Content>
     <Folder Include="Analysis" />
     <Folder Include="Design" />
+    <Folder Include="BusinessModel" />
     <Folder Include="Requirements" />
   </ItemGroup>
 </Project>
