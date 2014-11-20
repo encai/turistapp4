@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Turistv4.Model
 {
+    
     class Restaurant
     {
         private string _resAddress;

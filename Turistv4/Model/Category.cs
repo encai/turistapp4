@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Turistv4.Model
 {
+    
     class Category
     {
         private string _catImg;
