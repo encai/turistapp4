@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Turistv4.Model
 {
+  //  [Serializable]
     class Comment
     {
         private int _comRating;
