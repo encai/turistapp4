@@ -8,6 +8,19 @@ namespace Turistv4.Model
 {
     class Category
     {
-        //THIS IS A COMMENT
+        private string _catImg;
+        private string _catName;
+
+        public string CatImg
+        {
+            get { return _catImg; }
+            set { _catImg = value; }
+        }
+
+        public string CatName
+        {
+            get { return _catName; }
+            set { _catName = value; }
+        }
     }
 }

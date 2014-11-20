@@ -96,7 +96,7 @@
         <ownedAttributesInternal>
           <property
             Id="7caa902f-1054-499c-9d54-f3ea9d39b6a9"
-            name="Res_Name"
+            name="ResName"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -107,7 +107,7 @@
             isComposite="false" />
           <property
             Id="9a9672fb-ed29-4566-bade-4a41a4a17365"
-            name="Res_phone"
+            name="Resphone"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -118,7 +118,7 @@
             isComposite="false" />
           <property
             Id="21c15826-7ecf-4cfc-8092-b7bc14485728"
-            name="Res_mail"
+            name="ResMail"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -129,7 +129,7 @@
             isComposite="false" />
           <property
             Id="cf1f1bb9-5bdc-4385-a024-d157be13e142"
-            name="Res_Openhours_weekend"
+            name="ResOpenHoursWeekEnd"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -147,7 +147,7 @@
           </property>
           <property
             Id="08f37c05-5e86-4f99-8f22-80bc3cb6e647"
-            name="Res_openhours_weekdays"
+            name="ResOpenHoursWeekDays"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -165,7 +165,7 @@
           </property>
           <property
             Id="cf77c639-2937-43d2-ba3a-2f2d2af2baef"
-            name="Res_Image"
+            name="ResImage"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -176,7 +176,7 @@
             isComposite="false" />
           <property
             Id="a7e75fa2-3c92-4ea5-a812-bc3d66d42698"
-            name="Res_address"
+            name="ResAddress"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -253,7 +253,7 @@
         <ownedAttributesInternal>
           <property
             Id="3b2260e7-fe94-4fe6-a66b-0e3ce63b1c27"
-            name="Menu_name"
+            name="MenuName"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -264,7 +264,7 @@
             isComposite="false" />
           <property
             Id="cfc9e1fc-00cd-4b91-b9e7-68812abfcbd5"
-            name="Menu_price"
+            name="MenuPrice"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -275,7 +275,7 @@
             isComposite="false" />
           <property
             Id="b637ac6e-11ce-432d-a59e-f8fe8b2483c1"
-            name="Menu_info"
+            name="MenuInfo"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -286,7 +286,7 @@
             isComposite="false" />
           <property
             Id="8d8bb9a4-06eb-447f-bf6f-2ff12b6e626c"
-            name="Menu_image"
+            name="MenuImage"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -363,7 +363,7 @@
         <ownedAttributesInternal>
           <property
             Id="20dd6f23-8bb2-460a-8fbf-eb9864062ac7"
-            name="com_rating"
+            name="ComRating"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -374,7 +374,7 @@
             isComposite="false" />
           <property
             Id="1f49da93-cd55-48be-afaf-08ce4b01111f"
-            name="Com_text"
+            name="ComText"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -404,7 +404,7 @@
         <ownedAttributesInternal>
           <property
             Id="3ae184ea-cd8a-4f4f-ae51-45f36b45528b"
-            name="Cat_name"
+            name="CatName"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -415,7 +415,7 @@
             isComposite="false" />
           <property
             Id="18797068-1d52-434b-b3c2-fc9e2528a45f"
-            name="Cat_img"
+            name="CatImg"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
