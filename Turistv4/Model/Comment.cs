@@ -8,7 +8,7 @@ using System.Runtime.Serialization;
 namespace Turistv4.Model
 {
    [Serializable]
-    class Comment
+    public class Comment
     {
         private int _comRating;
         private string _comText;
@@ -52,7 +52,7 @@ namespace Turistv4.Model
 
         private static void rating_value(int value)
         {
-            if (value < 0 || 5 <= value)
+            if (value <= 0 || 5 <= value)
             {
                 throw new ArgumentException("rating skal være mellem  0 og 5");
             }
