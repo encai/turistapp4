@@ -120,6 +120,7 @@
     <Compile Include="Common\ObservableDictionary.cs" />
     <Compile Include="Common\RelayCommand.cs" />
     <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="Model\Comment.cs" />
     <Compile Include="Model\KategoriModel.cs" />
     <Compile Include="Model\RestaurantModel.cs" />
     <Compile Include="Properties\Annotations.cs" />
