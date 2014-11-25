@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 using Turistv4.Model;
 
 namespace Turistv4.ViewModel
-{
     [Serializable]
     class CommentHandler
     {
