@@ -121,6 +121,7 @@
     <Compile Include="Common\RelayCommand.cs" />
     <Compile Include="Common\SuspensionManager.cs" />
     <Compile Include="Model\KategoriModel.cs" />
+    <Compile Include="Model\PersistenceFacade.cs" />
     <Compile Include="Model\RestaurantModel.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
