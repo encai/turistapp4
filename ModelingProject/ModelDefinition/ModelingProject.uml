@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
-  Id="d0aebc2e-8ea2-4963-9006-3f5e2603cbda"
+  Id="c6952bd8-a761-40ee-adfd-5e52b848be65"
   name="ModelingProject" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
   <profileInstances>
     <packageHasProfileInstances
@@ -20,27 +20,93 @@
   <packagedElements>
     <packageHasNamedElement>
       <class
-        Id="fec979d5-9980-4e20-802b-0067fd1e1b9c"
+        Id="cba04814-e495-44ce-aa4a-0390097685ce"
+        name="Restaurant"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="9b18a208-deb1-434f-ad7b-eb06ab5dbfa1"
+        name="string" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5fd32a92-cc78-43d3-a973-26736da05f9e"
         name="Restaurant"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
         <targetEnds>
           <association
-            Id="33c053e1-aae1-4c75-a715-e2e46f54228b"
+            Id="7d32860c-c811-4d79-9920-53f03ea70bba"
+            isDerived="false"
+            sourceEndRoleName="Restaurant"
+            targetEndRoleName="Menu"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="7f2c3825-2805-41cd-a1fc-48cd745f98d9"
+              LastKnownName="Menu"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a24dbd28-3be3-4d85-bb78-20f6b015bb7e"
+                  name="Restaurant"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9899a323-8cb2-4214-bc48-0ff5d7d20b12"
+                  name="Menu"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b673af15-b63a-4ad8-9931-60dbde7e9dd2"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="fdd7fcc2-43b3-41f7-b2c5-f996db522078"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="22ce67ca-6ce8-4d63-9430-0f25b7056456"
             isDerived="false"
             sourceEndRoleName="Restaurant"
             targetEndRoleName="Category"
             isLeaf="false"
             isAbstract="false">
             <classMoniker
-              Id="3d56b1d1-6ae2-4e5c-a264-5c69a6a3f211"
+              Id="31d16cee-88e1-4d2f-8855-70b4704f7e5f"
               LastKnownName="Category"
               LastKnownLocation="ModelingProject.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="113bca11-9e67-4d05-9fcb-ed9c7e18e4a4"
+                  Id="526d01cf-0e44-490c-a46f-0d1988587d1e"
                   name="Restaurant"
                   isLeaf="false"
                   isStatic="false"
@@ -52,13 +118,13 @@
                   isNavigableOwned="false">
                   <lowerValueInternal>
                     <literalString
-                      Id="c14318a7-e799-4459-a923-51929d8ec0a0"
+                      Id="ed036739-1357-4011-a3c8-9d9537703bd9"
                       name="Lower"
                       value="*" />
                   </lowerValueInternal>
                   <upperValueInternal>
                     <literalString
-                      Id="d04fefc1-569b-4f9d-8f06-5da474c7f53c"
+                      Id="1afcc89d-2bc7-4f98-95d0-3cef02909f10"
                       name="Upper"
                       value="*" />
                   </upperValueInternal>
@@ -66,8 +132,48 @@
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="b7f31785-18f3-48a9-bf95-850a7e3490f7"
+                  Id="b46f2e1d-8761-4cbb-aeff-a6806ed69ef5"
                   name="Category"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="92dc5b17-ee08-4709-afeb-9737b7332abb"
+            isDerived="false"
+            sourceEndRoleName="Restaurant"
+            targetEndRoleName="Comment"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f8a490e5-bb43-4dc5-89ae-f2b26cf7c39a"
+              LastKnownName="Comment"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cc40de8f-be42-4706-94fa-db9d75ce6f3a"
+                  name="Restaurant"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7e257fbf-105d-41c3-b187-382074247c9d"
+                  name="Comment"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -78,15 +184,15 @@
                   isNavigableOwned="false">
                   <lowerValueInternal>
                     <literalString
-                      Id="29162b02-5f03-463f-9e5f-669132e637e8"
+                      Id="097bb194-2b79-46f2-8f2c-bc5346496b40"
                       name="Lower"
-                      value="1" />
+                      value="*" />
                   </lowerValueInternal>
                   <upperValueInternal>
                     <literalString
-                      Id="e1fe8766-a1e3-4084-bcb1-f8d3feb83be2"
+                      Id="225f294d-8f89-4afd-8627-bfbc6ca87293"
                       name="Upper"
-                      value="1" />
+                      value="*" />
                   </upperValueInternal>
                 </memberEnd>
               </associationHasOwnedEnds>
@@ -95,7 +201,7 @@
         </targetEnds>
         <ownedAttributesInternal>
           <property
-            Id="7caa902f-1054-499c-9d54-f3ea9d39b6a9"
+            Id="a65ce07a-c9cb-4f22-8aa7-1e139e299fdd"
             name="ResName"
             isLeaf="false"
             isStatic="false"
@@ -106,7 +212,7 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="9a9672fb-ed29-4566-bade-4a41a4a17365"
+            Id="5b0786f6-c074-4a1a-9196-3a88cbb67f3d"
             name="Resphone"
             isLeaf="false"
             isStatic="false"
@@ -117,7 +223,7 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="21c15826-7ecf-4cfc-8092-b7bc14485728"
+            Id="30d2e0c5-5e42-450e-a3c9-bc33c3599b9f"
             name="ResMail"
             isLeaf="false"
             isStatic="false"
@@ -128,7 +234,7 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="cf1f1bb9-5bdc-4385-a024-d157be13e142"
+            Id="c9eea96a-ffa2-4167-8675-5f367f2ee7ea"
             name="ResOpenHoursWeekEnd"
             isLeaf="false"
             isStatic="false"
@@ -140,13 +246,13 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="c06424b6-ec1c-43dc-bfb7-728306c6e145"
+                Id="9b18a208-deb1-434f-ad7b-eb06ab5dbfa1"
                 LastKnownName="string"
                 LastKnownLocation="ModelingProject.uml" />
             </type_NamedElement>
           </property>
           <property
-            Id="08f37c05-5e86-4f99-8f22-80bc3cb6e647"
+            Id="69517262-3fa6-443a-a67d-8926c5bad108"
             name="ResOpenHoursWeekDays"
             isLeaf="false"
             isStatic="false"
@@ -158,13 +264,13 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="c06424b6-ec1c-43dc-bfb7-728306c6e145"
+                Id="9b18a208-deb1-434f-ad7b-eb06ab5dbfa1"
                 LastKnownName="string"
                 LastKnownLocation="ModelingProject.uml" />
             </type_NamedElement>
           </property>
           <property
-            Id="cf77c639-2937-43d2-ba3a-2f2d2af2baef"
+            Id="0dcb1142-d1c3-4d40-aeb7-21ea9396385e"
             name="ResImage"
             isLeaf="false"
             isStatic="false"
@@ -175,7 +281,7 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="a7e75fa2-3c92-4ea5-a812-bc3d66d42698"
+            Id="02f1b606-7026-4d3c-acc7-e4a25617bf3d"
             name="ResAddress"
             isLeaf="false"
             isStatic="false"
@@ -190,69 +296,14 @@
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
-        Id="683f512d-fbd6-4ef9-b71e-8494be30350c"
+        Id="7f2c3825-2805-41cd-a1fc-48cd745f98d9"
         name="Menu"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
-        <targetEnds>
-          <association
-            Id="4e616853-9bc4-4665-8ffc-92425fb33f04"
-            isDerived="false"
-            sourceEndRoleName="Menu"
-            targetEndRoleName="Restaurant"
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="fec979d5-9980-4e20-802b-0067fd1e1b9c"
-              LastKnownName="Restaurant"
-              LastKnownLocation="ModelingProject.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="279eba8d-aace-48b2-a7a9-9f12807e234a"
-                  name="Menu"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false">
-                  <lowerValueInternal>
-                    <literalString
-                      Id="7ddd60ec-3c02-4d1b-9839-b3b9d8fd40eb"
-                      name="Lower"
-                      value="*" />
-                  </lowerValueInternal>
-                  <upperValueInternal>
-                    <literalString
-                      Id="ac28c2d3-fe02-4f40-baa2-55b778aece36"
-                      name="Upper"
-                      value="*" />
-                  </upperValueInternal>
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="4f184ba8-ec12-450d-9c47-50106c3a1d7a"
-                  name="Restaurant"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-        </targetEnds>
         <ownedAttributesInternal>
           <property
-            Id="3b2260e7-fe94-4fe6-a66b-0e3ce63b1c27"
+            Id="c7d09c16-76b4-4364-b423-3132dcc91dda"
             name="MenuName"
             isLeaf="false"
             isStatic="false"
@@ -263,7 +314,7 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="cfc9e1fc-00cd-4b91-b9e7-68812abfcbd5"
+            Id="ccfccc4a-448d-4894-8aa3-3aa6167b62dd"
             name="MenuPrice"
             isLeaf="false"
             isStatic="false"
@@ -274,7 +325,7 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="b637ac6e-11ce-432d-a59e-f8fe8b2483c1"
+            Id="4129f025-b82b-4db4-a7d2-50dd4f16c0aa"
             name="MenuInfo"
             isLeaf="false"
             isStatic="false"
@@ -285,7 +336,7 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="8d8bb9a4-06eb-447f-bf6f-2ff12b6e626c"
+            Id="3ba17d72-eb56-4ab4-8d7d-bef2c97186d7"
             name="MenuImage"
             isLeaf="false"
             isStatic="false"
@@ -300,110 +351,14 @@
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
-        Id="75facd48-19c5-4020-ac03-96095d0ae538"
-        name="Comment"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false">
-        <targetEnds>
-          <association
-            Id="0342e51f-9838-43cb-87f3-da79a2262e0b"
-            isDerived="false"
-            sourceEndRoleName="Comment"
-            targetEndRoleName="Restaurant"
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="fec979d5-9980-4e20-802b-0067fd1e1b9c"
-              LastKnownName="Restaurant"
-              LastKnownLocation="ModelingProject.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="29bc5962-7558-44bb-9ecd-656eccad743c"
-                  name="Comment"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false">
-                  <lowerValueInternal>
-                    <literalString
-                      Id="fe8b2840-834f-4113-b21c-72beadba734d"
-                      name="Lower"
-                      value="*" />
-                  </lowerValueInternal>
-                  <upperValueInternal>
-                    <literalString
-                      Id="9c89923e-c711-4ea2-be8f-86b68634f56b"
-                      name="Upper"
-                      value="*" />
-                  </upperValueInternal>
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="cca70f94-93a8-497b-b8a9-5a366fdc624e"
-                  name="Restaurant"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-        </targetEnds>
-        <ownedAttributesInternal>
-          <property
-            Id="20dd6f23-8bb2-460a-8fbf-eb9864062ac7"
-            name="ComRating"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="1f49da93-cd55-48be-afaf-08ce4b01111f"
-            name="ComText"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-        </ownedAttributesInternal>
-      </class>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
-        Id="9e761e20-dfae-428d-8895-2664b7031c22"
-        name="addcomment"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false" />
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
-        Id="3d56b1d1-6ae2-4e5c-a264-5c69a6a3f211"
+        Id="31d16cee-88e1-4d2f-8855-70b4704f7e5f"
         name="Category"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
         <ownedAttributesInternal>
           <property
-            Id="3ae184ea-cd8a-4f4f-ae51-45f36b45528b"
+            Id="8597c660-153c-4039-9451-048f58c4ec53"
             name="CatName"
             isLeaf="false"
             isStatic="false"
@@ -414,7 +369,7 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="18797068-1d52-434b-b3c2-fc9e2528a45f"
+            Id="e9bf7d1f-1916-4013-ba66-5c5602940619"
             name="CatImg"
             isLeaf="false"
             isStatic="false"
@@ -428,9 +383,37 @@
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <undefinedType
-        Id="c06424b6-ec1c-43dc-bfb7-728306c6e145"
-        name="string" />
+      <class
+        Id="f8a490e5-bb43-4dc5-89ae-f2b26cf7c39a"
+        name="Comment"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="6ef77319-d9ec-4277-8dd0-41b66bb94ac1"
+            name="ComRating"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="31e410dd-fce9-45e3-a8b4-0ca8904d9ed0"
+            name="ComText"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
