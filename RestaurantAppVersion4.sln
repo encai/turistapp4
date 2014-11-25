@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantAppVersion4", "Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantAppVersion4Tests1", "RestaurantAppVersion4Tests1\RestaurantAppVersion4Tests1.csproj", "{1E9BAD44-4290-4A2F-B8D4-D310E88E2B68}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject", "ModelingProject\ModelingProject.modelproj", "{1DAEA59F-5CCC-4780-B923-F993DFD7DB5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,16 @@ Global
 		{1E9BAD44-4290-4A2F-B8D4-D310E88E2B68}.Release|x86.ActiveCfg = Release|x86
 		{1E9BAD44-4290-4A2F-B8D4-D310E88E2B68}.Release|x86.Build.0 = Release|x86
 		{1E9BAD44-4290-4A2F-B8D4-D310E88E2B68}.Release|x86.Deploy.0 = Release|x86
+		{1DAEA59F-5CCC-4780-B923-F993DFD7DB5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DAEA59F-5CCC-4780-B923-F993DFD7DB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DAEA59F-5CCC-4780-B923-F993DFD7DB5E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{1DAEA59F-5CCC-4780-B923-F993DFD7DB5E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1DAEA59F-5CCC-4780-B923-F993DFD7DB5E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1DAEA59F-5CCC-4780-B923-F993DFD7DB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAEA59F-5CCC-4780-B923-F993DFD7DB5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DAEA59F-5CCC-4780-B923-F993DFD7DB5E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{1DAEA59F-5CCC-4780-B923-F993DFD7DB5E}.Release|x64.ActiveCfg = Release|Any CPU
+		{1DAEA59F-5CCC-4780-B923-F993DFD7DB5E}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
