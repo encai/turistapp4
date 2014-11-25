@@ -140,6 +140,11 @@ namespace RestaurantAppVersion4
             frontpagegrid2.Background = test1;
             //frontpageGrid.Background = test1;
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof (ItemDetailPage1));
+        }
         
     }
 }
