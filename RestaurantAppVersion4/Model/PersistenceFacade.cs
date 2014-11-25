@@ -5,12 +5,11 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Serialization;
 using Windows.Storage;
 using Newtonsoft.Json;
 using RestaurantAppVersion4.Model;
 
-namespace WindowsAppsSerializeTest
+namespace RestaurantAppVersion4
 {
     class PersistenceFacade
     {
@@ -19,7 +18,7 @@ namespace WindowsAppsSerializeTest
         public static async void SaveCommentsAsJsonAsync(ObservableCollection<Comment> Comments)
         {
             string CommentsJsonString = JsonConvert.SerializeObject(Comments);
-            SerializePersonsFileAsync(CommentsJsonString, jsonFileName);
+            SerializeCommentsFileAsync(CommentsJsonString, jsonFileName);
         }
 
         public static async Task<List<Comment>> LoadCommentsFromJsonAsync()
