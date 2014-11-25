@@ -5,10 +5,10 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Turistv4.Model;
+using RestaurantAppVersion4.Model;
 
-namespace Turistv4.ViewModel
-    [Serializable]
+namespace RestaurantAppVersion4.Model
+{
     class CommentHandler
     {
         private ObservableCollection<Comment> _comments;
@@ -34,20 +34,8 @@ namespace Turistv4.ViewModel
 
         public void CreateComment()
         {
-          /*  FileStream toStream = new FileStream("data.txt", FileMode.Create, FileAccess.Write, FileShare.Write);
-            StreamWriter fileWriter = new StreamWriter(toStream);
-
-            fileWriter.WriteLine("This");
-            fileWriter.WriteLine("is");
-            fileWriter.WriteLine("a");
-            fileWriter.WriteLine("test!");
-
-            fileWriter.Close();  //notice you have to close the StreamWriter before the FileStream
-            toStream.Close();
-
-            FileStream fromStream = new FileStream("data1.txt", FileMode.Open, FileAccess.Read, FileShare.Read);
-            StreamReader filReader = new StreamReader(fromStream);
-           * */
+            Comment comment = new Comment(_comRating, _comText);
+            _comments.Add(comment);
         }
 
     }

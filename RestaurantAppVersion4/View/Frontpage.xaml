@@ -5,7 +5,7 @@
     xmlns:common="using:RestaurantAppVersion4.Common"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:ViewModel="using:RestaurantAppVersion4.ViewModel"
+    xmlns:ViewModel="using:RestaurantAppVersion4.Model"
     x:Name="pageRoot"
     x:Class="RestaurantAppVersion4.Frontpage"
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Mode=Self}}"

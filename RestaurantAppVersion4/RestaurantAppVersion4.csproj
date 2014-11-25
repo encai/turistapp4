@@ -125,6 +125,7 @@
     <Compile Include="Model\PersistenceFacade.cs" />
     <Compile Include="Model\RestaurantModel.cs" />
     <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="ViewModel\CommentHandler.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="View\Frontpage.xaml.cs">
       <DependentUpon>Frontpage.xaml</DependentUpon>

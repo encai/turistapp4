@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using RestaurantAppVersion4.Annotations;
 using RestaurantAppVersion4.Model;
 
-namespace RestaurantAppVersion4.ViewModel
+namespace RestaurantAppVersion4.Model
 {
     class MainViewModel : INotifyPropertyChanged
     {
