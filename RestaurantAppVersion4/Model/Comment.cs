@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace RestaurantAppVersion4.Model
 {
-   public class Comment
+   public class Comment : INotifyPropertyChanged
     {
         private int _comRating;
         private string _comText;
@@ -56,5 +57,7 @@ namespace RestaurantAppVersion4.Model
             }
         }
         #endregion
+
+        public event PropertyChangedEventHandler PropertyChanged;
     }
 }
