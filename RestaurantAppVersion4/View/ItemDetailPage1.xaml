@@ -13,9 +13,18 @@
     mc:Ignorable="d">
 	<Page.BottomAppBar>
 		<AppBar>
-			<AppBarButton Icon="Accept" Label="AppBarButton" HorizontalAlignment="Right">
-				<AppBarSeparator Height="54" Margin="0,0,-20,-14" Width="60"/>
-			</AppBarButton>
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+					<AppBarButton HorizontalAlignment="Left" Icon="Download" Label="Indlæs" VerticalAlignment="Stretch"/>
+				</StackPanel>
+				<StackPanel Grid.Column="1" HorizontalAlignment="Left" Orientation="Horizontal">
+					<AppBarButton HorizontalAlignment="Stretch" Icon="Upload" Label="Gem" VerticalAlignment="Stretch"/>
+				</StackPanel>
+			</Grid>
 		</AppBar>
 	</Page.BottomAppBar>
 
