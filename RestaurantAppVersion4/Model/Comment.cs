@@ -8,7 +8,9 @@ using System.Threading.Tasks;
 namespace RestaurantAppVersion4.Model
 {
    public class Comment : INotifyPropertyChanged
-    {
+   {
+
+
         private int _comRating;
         private string _comText;
 
