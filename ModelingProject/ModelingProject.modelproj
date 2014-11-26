@@ -29,6 +29,13 @@
       <SubType>Content</SubType>
       <DependentUpon>BusinessModel\DomainModel.classdiagram</DependentUpon>
     </Content>
+    <Content Include="BusinessModel\UMLSequenceDiagram1.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="BusinessModel\UMLSequenceDiagram1.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>BusinessModel\UMLSequenceDiagram1.sequencediagram</DependentUpon>
+    </Content>
     <Content Include="UMLClassDiagram.classdiagram">
       <SubType>Content</SubType>
     </Content>
