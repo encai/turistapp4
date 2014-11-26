@@ -130,5 +130,7 @@
         	<Run Text="VELKOMMEN!"/>
         </TextBlock>
         <Button Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="714,531,0,0" Grid.Row="1" VerticalAlignment="Top" Click="Button_Click_3"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="437,55,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Kommentar:" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.185,0.769"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="437,245,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Din rating:" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.185,0.769"/>
     </Grid>
 </Page>
