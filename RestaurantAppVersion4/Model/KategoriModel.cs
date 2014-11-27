@@ -10,7 +10,6 @@ namespace RestaurantAppVersion4.Model
     class KategoriModel : INotifyCollectionChanged
     {
         private List<RestaurantModel> _restaurants;
-        private string _type { get; set; }
         private string _name;
         private string _imageUrl;
 

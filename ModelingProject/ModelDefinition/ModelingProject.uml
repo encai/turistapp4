@@ -884,22 +884,22 @@
             </covered>
           </messageOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="63cb3110-01c3-410a-b3fe-08cbd2d5c24c"
-            name="MessageOccurrenceSpecification20">
-            <covered>
-              <lifelineMoniker
-                Id="a82f62ee-fdca-478c-b277-7573bd334de3"
-                LastKnownName="Restaurant"
-                LastKnownLocation="ModelingProject.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="375a9e15-4553-4972-9cdd-1de8545e8911"
             name="MessageOccurrenceSpecification19">
             <covered>
               <lifelineMoniker
                 Id="ef7f3feb-2bc1-418c-b017-2427814468cf"
                 LastKnownName="Kommentar(com_text, com_rating)"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="63cb3110-01c3-410a-b3fe-08cbd2d5c24c"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="a82f62ee-fdca-478c-b277-7573bd334de3"
+                LastKnownName="Restaurant"
                 LastKnownLocation="ModelingProject.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -1354,6 +1354,24 @@
       <executionEvent
         Id="5f00e89e-0685-4900-a979-07816faf3e4b"
         name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a31ff933-2711-4411-adcf-ad7cd1cb7501"
+        LastKnownName="View"
+        LastKnownLocation="Package_0940.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f33a16c4-cfa2-4d72-9bd4-e68565316477"
+        LastKnownName="ViewModel"
+        LastKnownLocation="Package_0941.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8cf4d182-fc65-4ee0-92e8-33e91064a883"
+        LastKnownName="t"
+        LastKnownLocation="Package1_0941.uml" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

@@ -59,7 +59,6 @@
             </TextBlock>
             <Slider HorizontalAlignment="Left" Margin="776,523,0,0" VerticalAlignment="Top" Width="110" Maximum="5" Minimum="1"/>
             <TextBlock HorizontalAlignment="Left" Margin="776,467,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" Width="295" Text="Angiv rating:"/>
-            <Button Content="Udfør" HorizontalAlignment="Left" Height="40" Margin="1074,557,0,0" VerticalAlignment="Top" Width="100"/>
             <ListView HorizontalAlignment="Left" Height="203" Margin="85,182,0,0" VerticalAlignment="Top" Width="240" ItemsSource="{Binding Kategorier, Mode=TwoWay}" SelectedItem="{Binding SelectedKategori, Mode=TwoWay}"/>
             <ListView HorizontalAlignment="Left" Height="210" Margin="85,435,0,0" VerticalAlignment="Top" Width="240" ItemsSource="{Binding SelectedKategori.Restaurants}" SelectedItem="{Binding SelectedResaurant, Mode=TwoWay}"/>
         </Grid>
