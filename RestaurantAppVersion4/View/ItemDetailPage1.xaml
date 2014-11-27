@@ -22,8 +22,8 @@
 					<AppBarButton HorizontalAlignment="Left" Icon="Download" Label="Indlæs" VerticalAlignment="Stretch"/>
 				</StackPanel>
 				<StackPanel Grid.Column="1" HorizontalAlignment="Left" Orientation="Horizontal">
-					<AppBarButton HorizontalAlignment="Stretch" Icon="Upload" Label="Gem" VerticalAlignment="Stretch"/>
-				</StackPanel>
+					<AppBarButton HorizontalAlignment="Stretch" Icon="Upload" Label="Gem" VerticalAlignment="Stretch" ClickMode="Press"/>
+                </StackPanel>
 			</Grid>
 		</AppBar>
 	</Page.BottomAppBar>

@@ -36,6 +36,7 @@ namespace RestaurantAppVersion4.Model
         {
             Comment comment = new Comment(_comRating, _comText);
             _comments.Add(comment);
+            PersistenceFacade.SaveCommentsAsJsonAsync(_comments);
         }
 
     }

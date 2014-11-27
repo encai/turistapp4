@@ -15,9 +15,9 @@ namespace RestaurantAppVersion4
     {
         private static string jsonFileName = "Comments.dat";
 
-        public static async void SaveCommentsAsJsonAsync(ObservableCollection<Comment> Comments)
+        public static async void SaveCommentsAsJsonAsync(ObservableCollection<Comment> comments)
         {
-            string CommentsJsonString = JsonConvert.SerializeObject(Comments);
+            string CommentsJsonString = JsonConvert.SerializeObject(comments);
             SerializeCommentsFileAsync(CommentsJsonString, jsonFileName);
         }
 
