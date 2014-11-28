@@ -74,9 +74,9 @@ namespace RestaurantAppVersion4.Model
 
         public RestaurantModel()
         {
-            
+
             _kommentarKatalog = new ObservableCollection<KommentarModel>();
-        
+
         }
 
         public void AddKommentarTwo(string text)

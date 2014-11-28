@@ -19,6 +19,7 @@ using Windows.UI.Xaml.Navigation;
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
 using RestaurantAppVersion4.Model;
 using RestaurantAppVersion4.View;
+using RestaurantAppVersion4.ViewModel;
 
 namespace RestaurantAppVersion4
 {

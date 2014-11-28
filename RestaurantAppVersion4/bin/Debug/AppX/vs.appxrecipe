@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-28T08:30:02.904</Modified>
+      <Modified>2014-11-28T09:18:43.010</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\bin\Debug\RestaurantAppVersion4.exe">
       <PackagePath>RestaurantAppVersion4.exe</PackagePath>
-      <Modified>2014-11-28T08:30:02.490</Modified>
+      <Modified>2014-11-28T09:18:42.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rasmus1\Documents\GitHub\turistapp4\packages\Newtonsoft.Json.6.0.6\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -70,23 +70,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-11-28T08:30:02.159</Modified>
+      <Modified>2014-11-28T09:18:42.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\bin\Debug\View\Frontpage.xbf">
       <PackagePath>View\Frontpage.xbf</PackagePath>
-      <Modified>2014-11-28T08:30:02.163</Modified>
+      <Modified>2014-11-28T09:18:42.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\bin\Debug\View\ItemDetailPage1.xbf">
       <PackagePath>View\ItemDetailPage1.xbf</PackagePath>
-      <Modified>2014-11-28T08:30:02.166</Modified>
+      <Modified>2014-11-28T09:18:42.144</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\bin\Debug\RestaurantAppVersion4.xr.xml">
       <PackagePath>RestaurantAppVersion4.xr.xml</PackagePath>
-      <Modified>2014-11-28T08:30:02.085</Modified>
+      <Modified>2014-11-28T09:01:00.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-11-28T08:30:02.719</Modified>
+      <Modified>2014-11-28T09:18:42.812</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

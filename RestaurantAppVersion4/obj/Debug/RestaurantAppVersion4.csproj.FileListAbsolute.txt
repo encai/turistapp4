@@ -132,7 +132,6 @@ C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\bin\Debug\App
 C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\bin\Debug\RestaurantAppVersion4.build.appxrecipe
 C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\obj\Debug\RestaurantAppVersion4.csprojResolveAssemblyReference.cache
 C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\obj\Debug\App.g.i.cs
 C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\obj\Debug\App.g.cs
 C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\obj\Debug\View\Frontpage.g.i.cs
@@ -162,3 +161,4 @@ C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\obj\Debug\qua
 C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\obj\Debug\ProjectArchitectures.txt
+C:\Users\Rasmus1\Documents\GitHub\turistapp4\RestaurantAppVersion4\obj\Debug\RestaurantAppVersion4.csprojResolveAssemblyReference.cache

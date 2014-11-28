@@ -307,7 +307,7 @@ namespace RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo
             case 4:   //  RestaurantAppVersion4.ViewModel.MainViewModel
                 userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_4_MainViewModel;
-                userType.AddMemberName("SelectedResaurant");
+                userType.AddMemberName("SelectedRestaurantModel");
                 userType.AddMemberName("SelectedKategori");
                 userType.AddMemberName("Restaurants");
                 userType.AddMemberName("Kategorier");
@@ -489,15 +489,15 @@ namespace RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo
             var that = (global::Windows.UI.Color)instance;
             that.R = (global::System.Byte)Value;
         }
-        private object get_4_MainViewModel_SelectedResaurant(object instance)
+        private object get_4_MainViewModel_SelectedRestaurantModel(object instance)
         {
             var that = (global::RestaurantAppVersion4.ViewModel.MainViewModel)instance;
-            return that.SelectedResaurant;
+            return that.SelectedRestaurantModel;
         }
-        private void set_4_MainViewModel_SelectedResaurant(object instance, object Value)
+        private void set_4_MainViewModel_SelectedRestaurantModel(object instance, object Value)
         {
             var that = (global::RestaurantAppVersion4.ViewModel.MainViewModel)instance;
-            that.SelectedResaurant = (global::RestaurantAppVersion4.Model.RestaurantModel)Value;
+            that.SelectedRestaurantModel = (global::RestaurantAppVersion4.Model.RestaurantModel)Value;
         }
         private object get_5_MainViewModel_SelectedKategori(object instance)
         {
@@ -701,11 +701,11 @@ namespace RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo
                 xamlMember.Getter = get_3_Color_R;
                 xamlMember.Setter = set_3_Color_R;
                 break;
-            case "RestaurantAppVersion4.ViewModel.MainViewModel.SelectedResaurant":
+            case "RestaurantAppVersion4.ViewModel.MainViewModel.SelectedRestaurantModel":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.ViewModel.MainViewModel");
-                xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "SelectedResaurant", "RestaurantAppVersion4.Model.RestaurantModel");
-                xamlMember.Getter = get_4_MainViewModel_SelectedResaurant;
-                xamlMember.Setter = set_4_MainViewModel_SelectedResaurant;
+                xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "SelectedRestaurantModel", "RestaurantAppVersion4.Model.RestaurantModel");
+                xamlMember.Getter = get_4_MainViewModel_SelectedRestaurantModel;
+                xamlMember.Setter = set_4_MainViewModel_SelectedRestaurantModel;
                 break;
             case "RestaurantAppVersion4.ViewModel.MainViewModel.SelectedKategori":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.ViewModel.MainViewModel");

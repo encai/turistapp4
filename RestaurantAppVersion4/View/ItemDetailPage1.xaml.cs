@@ -107,9 +107,9 @@ namespace RestaurantAppVersion4.View
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (Katalog.SelectedResaurant != null)
+            if (Katalog.SelectedRestaurantModel != null)
             {
-                Katalog.SelectedResaurant.AddKommentarTwo(commentBox.Text);
+                Katalog.SelectedRestaurantModel.AddKommentarTwo(commentBox.Text);
                 this.Frame.Navigate(typeof(Frontpage));
             }
             else

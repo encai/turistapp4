@@ -15,16 +15,16 @@ namespace RestaurantAppVersion4
     {
         private static string jsonFileName = "Comments.dat";
 
-        public static async void SaveCommentsAsJsonAsync(ObservableCollection<Comment> comments)
+        public static async void SaveCommentsAsJsonAsync(ObservableCollection<KommentarModel> comments)
         {
             string CommentsJsonString = JsonConvert.SerializeObject(comments);
             SerializeCommentsFileAsync(CommentsJsonString, jsonFileName);
         }
 
-        public static async Task<List<Comment>> LoadCommentsFromJsonAsync()
+        public static async Task<List<KommentarModel>> LoadCommentsFromJsonAsync()
         {
             string CommentsJsonString = await DeSerializeCommentsFileAsync(jsonFileName);
-            return (List<Comment>)JsonConvert.DeserializeObject(CommentsJsonString, typeof(List<Comment>));  
+            return (List<KommentarModel>)JsonConvert.DeserializeObject(CommentsJsonString, typeof(List<KommentarModel>));  
         }
 
         public static async void SerializeCommentsFileAsync(string CommentsString, string fileName)

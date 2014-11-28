@@ -13,16 +13,17 @@ namespace RestaurantAppVersion4.ViewModel
 { 
     class MainViewModel : INotifyPropertyChanged
     {
-        
-        private RestaurantModel _selectedResaurant;
+
+        private RestaurantModel _selectedRestaurantModel;
         private KategoriModel _selectedKategori;
         private SingletonViewModel _restaurants = SingletonViewModel.Instance;
         private SingletonViewModel _kategorier = SingletonViewModel.Instance;
 
-        public RestaurantModel SelectedResaurant
+
+        public RestaurantModel SelectedRestaurantModel
         {
-            get { return _selectedResaurant; }
-            set { _selectedResaurant = value; OnPropertyChanged("SelectedResaurant");}
+            get { return _selectedRestaurantModel; }
+            set { _selectedRestaurantModel = value; OnPropertyChanged("SelectedRestaurant"); }
         }
 
         public KategoriModel SelectedKategori
@@ -49,7 +50,7 @@ namespace RestaurantAppVersion4.ViewModel
 
         public override string ToString()
         {
-            return string.Format(_selectedResaurant.Name);
+            return string.Format(_selectedRestaurantModel.Name);
         }
 
         #region Propertychanged
