@@ -39,9 +39,17 @@ namespace RestaurantAppVersion4.ViewModel
 
             RestaurantModel r1 = new RestaurantModel() { ImageURL = "/Assets/jensens1.jpg", Adress = "Skomagergade 38, 4000 Roskilde", Contact = "46 32 25 10", Name = "Jensens Bøfhus", OpenHours = "Søndag-tosdag 11.00-22.00 \nFredag-Lørdag 11.00-23.00", PriceClass = "Normal" };
             RestaurantModel r2 = new RestaurantModel() { ImageURL = "/Assets/prindsen1.jpg", Adress = "Algade 13, 4000 Roskilde", Contact = "46 30 91 00", Name = "Hotel Prindsen", OpenHours = "24-timers åbent", PriceClass = "Dyr" };
-
+            RestaurantModel r3 = new RestaurantModel() { ImageURL = "/Assets/prindsen1.jpg", Adress = "Algade 10 4000 Roskilde", Contact = "46 30 91 00", Name = "Sun Set", OpenHours = "24-timers åbent", PriceClass = "Billig" };
+            RestaurantModel r4 = new RestaurantModel() { ImageURL = "/Assets/prindsen1.jpg", Adress = "Algade 12 4000 Roskilde", Contact = "46 30 91 00", Name = "Burger King", OpenHours = "24-timers åbent", PriceClass = "billig" };
+            RestaurantModel r5 = new RestaurantModel() { ImageURL = "/Assets/prindsen1.jpg", Adress = "Algade 14, 4000 Roskilde", Contact = "46 30 91 00", Name = "Scandic", OpenHours = "24-timers åbent", PriceClass = "Dyr" };
+            RestaurantModel r6 = new RestaurantModel() { ImageURL = "/Assets/prindsen1.jpg", Adress = "Algade 15, 4000 Roskilde", Contact = "46 30 91 00", Name = "Bones", OpenHours = "24-timers åbent", PriceClass = "Dyr" };
+          
             Kategorier[1].Restaurants.Add(r1);
+            Kategorier[1].Restaurants.Add(r6);
             Kategorier[2].Restaurants.Add(r2);
+            Kategorier[2].Restaurants.Add(r5);
+            Kategorier[3].Restaurants.Add(r3);
+            Kategorier[3].Restaurants.Add(r4);
         }
 
         public static SingletonViewModel Instance
