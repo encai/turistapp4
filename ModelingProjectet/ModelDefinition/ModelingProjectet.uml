@@ -834,7 +834,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="47824fec-f87a-4d5d-8687-44c01ed1488d"
-                LastKnownName="Kommentar(com_text, com_rating)"
+                LastKnownName=": Kommentar(com_text, com_rating)"
                 LastKnownLocation="ModelingProjectet.uml" />
             </coveredLifelines>
             <finish>
@@ -874,7 +874,7 @@
             <covered>
               <lifelineMoniker
                 Id="47824fec-f87a-4d5d-8687-44c01ed1488d"
-                LastKnownName="Kommentar(com_text, com_rating)"
+                LastKnownName=": Kommentar(com_text, com_rating)"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -894,7 +894,7 @@
             <covered>
               <lifelineMoniker
                 Id="47824fec-f87a-4d5d-8687-44c01ed1488d"
-                LastKnownName="Kommentar(com_text, com_rating)"
+                LastKnownName=": Kommentar(com_text, com_rating)"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -904,7 +904,7 @@
             <covered>
               <lifelineMoniker
                 Id="47824fec-f87a-4d5d-8687-44c01ed1488d"
-                LastKnownName="Kommentar(com_text, com_rating)"
+                LastKnownName=": Kommentar(com_text, com_rating)"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -932,7 +932,7 @@
             <covered>
               <lifelineMoniker
                 Id="47824fec-f87a-4d5d-8687-44c01ed1488d"
-                LastKnownName="Kommentar(com_text, com_rating)"
+                LastKnownName=": Kommentar(com_text, com_rating)"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -1093,9 +1093,9 @@
           </lifeline>
           <lifeline
             Id="47824fec-f87a-4d5d-8687-44c01ed1488d"
-            name="Kommentar(com_text, com_rating)"
+            name=": Kommentar(com_text, com_rating)"
             isActor="false"
-            lifelineDisplayName="Kommentar(com_text, com_rating)">
+            lifelineDisplayName=": Kommentar(com_text, com_rating)">
             <topLevelOccurrences>
               <executionOccurrenceSpecificationMoniker
                 Id="4396a1f1-90a0-4df4-b6fd-61c477406d43"

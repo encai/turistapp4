@@ -51,16 +51,16 @@
       </relativeChildShapes>
     </lifelineShape>
     <lifelineShape Id="42a641fd-671f-4cb4-9d41-905a6b8f9375" absoluteBounds="6.5, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
-      <lifelineMoniker Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" LastKnownName="Kommentar(com_text, com_rating)" />
+      <lifelineMoniker Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" LastKnownName=": Kommentar(com_text, com_rating)" />
       <relativeChildShapes>
         <lifelineHoverShape Id="f7f252bd-ddab-4727-b768-b688095307c3" absoluteBounds="6.5, 1, 0, 7">
-          <lifelineMoniker Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" LastKnownName="Kommentar(com_text, com_rating)" />
+          <lifelineMoniker Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" LastKnownName=": Kommentar(com_text, com_rating)" />
         </lifelineHoverShape>
         <umlExecutionSpecificationShape Id="9975b3a8-6835-4ce2-95cf-643ab79b4c1c" absoluteBounds="6.5, 3.3499999999999996, 0.15, 0.55" customColor="184, 204, 215" visualStyleMode="Modified">
           <behaviorExecutionSpecificationMoniker Id="0e94096c-fd3d-4313-83f1-0290c7613148" LastKnownName="BehaviorExecutionSpecification5" />
         </umlExecutionSpecificationShape>
-        <umlLifelineHeadShape Id="59b9f49f-a2b9-47c8-854e-179f6c1349db" absoluteBounds="6.075, 0.6, 1, 0.4" customColor="White" visualStyleMode="Modified">
-          <lifelineMoniker Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" LastKnownName="Kommentar(com_text, com_rating)" />
+        <umlLifelineHeadShape Id="59b9f49f-a2b9-47c8-854e-179f6c1349db" absoluteBounds="5.7596863818168638, 0.6, 1.6306272363662719, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" LastKnownName=": Kommentar(com_text, com_rating)" />
           <relativeChildShapes />
         </umlLifelineHeadShape>
       </relativeChildShapes>

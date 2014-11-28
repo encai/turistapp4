@@ -232,7 +232,7 @@
           <behaviorExecutionSpecification Id="0e94096c-fd3d-4313-83f1-0290c7613148" name="BehaviorExecutionSpecification5">
             <elementDefinition Id="163ac7a9-e994-4899-8fda-57a450aa4377" />
             <coveredLifelines>
-              <lifelineMoniker Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" LastKnownName="Kommentar(com_text, com_rating)" />
+              <lifelineMoniker Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" LastKnownName=": Kommentar(com_text, com_rating)" />
             </coveredLifelines>
             <finish>
               <executionOccurrenceSpecificationMoniker Id="f96149a4-6304-42e5-aa5e-be06d8ea36bc" LastKnownName="ExecutionOccurrenceSpecification10" />
@@ -253,7 +253,7 @@
               </executionOccurrenceSpecificationReferencesEvent>
             </event>
             <covered>
-              <lifelineMoniker Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" LastKnownName="Kommentar(com_text, com_rating)" />
+              <lifelineMoniker Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" LastKnownName=": Kommentar(com_text, com_rating)" />
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification Id="fee31e32-69b4-43c8-9e6c-7b028fb52298" name="MessageOccurrenceSpecification17">
@@ -265,13 +265,13 @@
           <messageOccurrenceSpecification Id="3d5edf79-bf28-4f8a-bad4-af99aafeb3f6" name="MessageOccurrenceSpecification18">
             <elementDefinition Id="3ff5a085-614c-4a64-b49c-4549d6ab837c" />
             <covered>
-              <lifelineMoniker Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" LastKnownName="Kommentar(com_text, com_rating)" />
+              <lifelineMoniker Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" LastKnownName=": Kommentar(com_text, com_rating)" />
             </covered>
           </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="bf6d3369-d8d9-4be2-864d-c497019014b3" name="MessageOccurrenceSpecification19">
             <elementDefinition Id="f5d47916-2b24-41d7-8401-111b89a46438" />
             <covered>
-              <lifelineMoniker Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" LastKnownName="Kommentar(com_text, com_rating)" />
+              <lifelineMoniker Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" LastKnownName=": Kommentar(com_text, com_rating)" />
             </covered>
           </messageOccurrenceSpecification>
           <messageOccurrenceSpecification Id="1d4bbf66-db92-400f-bbf5-6b18010699d7" name="MessageOccurrenceSpecification20">
@@ -288,7 +288,7 @@
               </executionOccurrenceSpecificationReferencesEvent>
             </event>
             <covered>
-              <lifelineMoniker Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" LastKnownName="Kommentar(com_text, com_rating)" />
+              <lifelineMoniker Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" LastKnownName=": Kommentar(com_text, com_rating)" />
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification Id="345a77f0-259e-4566-a583-2473ccf1aaba" name="MessageOccurrenceSpecification15">
@@ -372,7 +372,7 @@
               <executionOccurrenceSpecificationMoniker Id="3a6b35cb-4f31-4742-bdc3-bd9859b16cfa" LastKnownName="ExecutionOccurrenceSpecification8" />
             </topLevelOccurrences>
           </lifeline>
-          <lifeline Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" name="Kommentar(com_text, com_rating)" isActor="false" lifelineDisplayName="Kommentar(com_text, com_rating)">
+          <lifeline Id="8fa89d05-45b9-4fbb-b35c-d0b17419e87f" name=": Kommentar(com_text, com_rating)" isActor="false" lifelineDisplayName=": Kommentar(com_text, com_rating)">
             <elementDefinition Id="47824fec-f87a-4d5d-8687-44c01ed1488d" />
             <topLevelOccurrences>
               <executionOccurrenceSpecificationMoniker Id="66f9966f-8195-484c-a6c6-d299d090b2f4" LastKnownName="ExecutionOccurrenceSpecification9" />
