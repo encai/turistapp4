@@ -446,7 +446,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="de1bb7aa-cf21-44aa-8523-3f4bc14575c3"
-                LastKnownName="CommentHandler"
+                LastKnownName=": CommentHandler"
                 LastKnownLocation="ModelingProjectet.uml" />
             </coveredLifelines>
             <finish>
@@ -502,7 +502,7 @@
             <covered>
               <lifelineMoniker
                 Id="de1bb7aa-cf21-44aa-8523-3f4bc14575c3"
-                LastKnownName="CommentHandler"
+                LastKnownName=": CommentHandler"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -512,7 +512,7 @@
             <covered>
               <lifelineMoniker
                 Id="de1bb7aa-cf21-44aa-8523-3f4bc14575c3"
-                LastKnownName="CommentHandler"
+                LastKnownName=": CommentHandler"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -532,7 +532,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="90324a5f-4976-4d78-b90b-4bb4af61eecb"
-                LastKnownName="MainViewModel"
+                LastKnownName=": MainViewModel"
                 LastKnownLocation="ModelingProjectet.uml" />
             </coveredLifelines>
             <finish>
@@ -580,7 +580,7 @@
             <covered>
               <lifelineMoniker
                 Id="90324a5f-4976-4d78-b90b-4bb4af61eecb"
-                LastKnownName="MainViewModel"
+                LastKnownName=": MainViewModel"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -590,7 +590,7 @@
             <covered>
               <lifelineMoniker
                 Id="90324a5f-4976-4d78-b90b-4bb4af61eecb"
-                LastKnownName="MainViewModel"
+                LastKnownName=": MainViewModel"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -600,7 +600,7 @@
             <covered>
               <lifelineMoniker
                 Id="de1bb7aa-cf21-44aa-8523-3f4bc14575c3"
-                LastKnownName="CommentHandler"
+                LastKnownName=": CommentHandler"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -610,7 +610,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="ae0a4e46-900e-4f27-a689-2f8e7af96e25"
-                LastKnownName="Restaurant"
+                LastKnownName=": Restaurant"
                 LastKnownLocation="ModelingProjectet.uml" />
             </coveredLifelines>
             <finish>
@@ -650,7 +650,7 @@
             <covered>
               <lifelineMoniker
                 Id="ae0a4e46-900e-4f27-a689-2f8e7af96e25"
-                LastKnownName="Restaurant"
+                LastKnownName=": Restaurant"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -660,7 +660,7 @@
             <covered>
               <lifelineMoniker
                 Id="ae0a4e46-900e-4f27-a689-2f8e7af96e25"
-                LastKnownName="Restaurant"
+                LastKnownName=": Restaurant"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -670,7 +670,7 @@
             <covered>
               <lifelineMoniker
                 Id="90324a5f-4976-4d78-b90b-4bb4af61eecb"
-                LastKnownName="MainViewModel"
+                LastKnownName=": MainViewModel"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -680,7 +680,7 @@
             <covered>
               <lifelineMoniker
                 Id="ae0a4e46-900e-4f27-a689-2f8e7af96e25"
-                LastKnownName="Restaurant"
+                LastKnownName=": Restaurant"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -690,7 +690,7 @@
             <covered>
               <lifelineMoniker
                 Id="90324a5f-4976-4d78-b90b-4bb4af61eecb"
-                LastKnownName="MainViewModel"
+                LastKnownName=": MainViewModel"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -708,7 +708,7 @@
             <covered>
               <lifelineMoniker
                 Id="ae0a4e46-900e-4f27-a689-2f8e7af96e25"
-                LastKnownName="Restaurant"
+                LastKnownName=": Restaurant"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -718,7 +718,7 @@
             <covered>
               <lifelineMoniker
                 Id="de1bb7aa-cf21-44aa-8523-3f4bc14575c3"
-                LastKnownName="CommentHandler"
+                LastKnownName=": CommentHandler"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -728,7 +728,7 @@
             <covered>
               <lifelineMoniker
                 Id="90324a5f-4976-4d78-b90b-4bb4af61eecb"
-                LastKnownName="MainViewModel"
+                LastKnownName=": MainViewModel"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -746,7 +746,7 @@
             <covered>
               <lifelineMoniker
                 Id="90324a5f-4976-4d78-b90b-4bb4af61eecb"
-                LastKnownName="MainViewModel"
+                LastKnownName=": MainViewModel"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -756,7 +756,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="ae0a4e46-900e-4f27-a689-2f8e7af96e25"
-                LastKnownName="Restaurant"
+                LastKnownName=": Restaurant"
                 LastKnownLocation="ModelingProjectet.uml" />
             </coveredLifelines>
             <finish>
@@ -804,7 +804,7 @@
             <covered>
               <lifelineMoniker
                 Id="ae0a4e46-900e-4f27-a689-2f8e7af96e25"
-                LastKnownName="Restaurant"
+                LastKnownName=": Restaurant"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -814,7 +814,7 @@
             <covered>
               <lifelineMoniker
                 Id="de1bb7aa-cf21-44aa-8523-3f4bc14575c3"
-                LastKnownName="CommentHandler"
+                LastKnownName=": CommentHandler"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -824,7 +824,7 @@
             <covered>
               <lifelineMoniker
                 Id="ae0a4e46-900e-4f27-a689-2f8e7af96e25"
-                LastKnownName="Restaurant"
+                LastKnownName=": Restaurant"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -884,7 +884,7 @@
             <covered>
               <lifelineMoniker
                 Id="ae0a4e46-900e-4f27-a689-2f8e7af96e25"
-                LastKnownName="Restaurant"
+                LastKnownName=": Restaurant"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -914,7 +914,7 @@
             <covered>
               <lifelineMoniker
                 Id="ae0a4e46-900e-4f27-a689-2f8e7af96e25"
-                LastKnownName="Restaurant"
+                LastKnownName=": Restaurant"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -942,7 +942,7 @@
             <covered>
               <lifelineMoniker
                 Id="ae0a4e46-900e-4f27-a689-2f8e7af96e25"
-                LastKnownName="Restaurant"
+                LastKnownName=": Restaurant"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -952,7 +952,7 @@
             <covered>
               <lifelineMoniker
                 Id="de1bb7aa-cf21-44aa-8523-3f4bc14575c3"
-                LastKnownName="CommentHandler"
+                LastKnownName=": CommentHandler"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -970,7 +970,7 @@
             <covered>
               <lifelineMoniker
                 Id="ae0a4e46-900e-4f27-a689-2f8e7af96e25"
-                LastKnownName="Restaurant"
+                LastKnownName=": Restaurant"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -980,7 +980,7 @@
             <covered>
               <lifelineMoniker
                 Id="de1bb7aa-cf21-44aa-8523-3f4bc14575c3"
-                LastKnownName="CommentHandler"
+                LastKnownName=": CommentHandler"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -1008,7 +1008,7 @@
             <covered>
               <lifelineMoniker
                 Id="de1bb7aa-cf21-44aa-8523-3f4bc14575c3"
-                LastKnownName="CommentHandler"
+                LastKnownName=": CommentHandler"
                 LastKnownLocation="ModelingProjectet.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -1032,9 +1032,9 @@
           </lifeline>
           <lifeline
             Id="de1bb7aa-cf21-44aa-8523-3f4bc14575c3"
-            name="CommentHandler"
+            name=": CommentHandler"
             isActor="false"
-            lifelineDisplayName="CommentHandler">
+            lifelineDisplayName=": CommentHandler">
             <topLevelOccurrences>
               <executionOccurrenceSpecificationMoniker
                 Id="005b2b6f-e25f-40f1-8e2c-96bdffcc6a82"
@@ -1048,9 +1048,9 @@
           </lifeline>
           <lifeline
             Id="90324a5f-4976-4d78-b90b-4bb4af61eecb"
-            name="MainViewModel"
+            name=": MainViewModel"
             isActor="false"
-            lifelineDisplayName="MainViewModel">
+            lifelineDisplayName=": MainViewModel">
             <topLevelOccurrences>
               <executionOccurrenceSpecificationMoniker
                 Id="befb97f3-8ae0-4fc6-b48e-d25ee4cba6a4"
@@ -1064,9 +1064,9 @@
           </lifeline>
           <lifeline
             Id="ae0a4e46-900e-4f27-a689-2f8e7af96e25"
-            name="Restaurant"
+            name=": Restaurant"
             isActor="false"
-            lifelineDisplayName="Restaurant">
+            lifelineDisplayName=": Restaurant">
             <represents>
               <propertyMoniker
                 Id="0133e08e-b0c0-4be5-865b-fe424c521460"
