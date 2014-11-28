@@ -9,7 +9,7 @@ using RestaurantAppVersion4.Annotations;
 
 namespace RestaurantAppVersion4.Model
 {
-    class KommentarModel : INotifyPropertyChanged
+   public class KommentarModel : INotifyPropertyChanged
     {
         private string _comText;
         private int _comRating;
@@ -23,11 +23,38 @@ namespace RestaurantAppVersion4.Model
         public string ComText
         {
             get { return _comText; }
-            set { _comText = value; }
+            set
+            {
+                text_length(value);
+                _comText = value;
+            }
         }
 
-       
-      
+        public int ComRating
+        {
+            get { return _comRating; }
+            set
+            {
+                rating_value(value);
+                _comRating = value;
+            }
+        }
+
+        private static void text_length(string value)
+        {
+            if (value.Length >= 10 || value.Length <= 200)
+            {
+                throw new ArgumentException("Comment skal være mellem 10 og 200 tegn");
+            }
+        }
+
+        private static void rating_value(int value)
+        {
+            if (value <= 0 || 5 <= value)
+            {
+                throw new ArgumentException("rating skal være mellem  0 og 5");
+            }
+        }
 
         public override string ToString()
         {

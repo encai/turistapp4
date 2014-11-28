@@ -13,6 +13,22 @@
     <Page.Resources>
         <ViewModel:MainViewModel x:Name="Katalog"/>
     </Page.Resources>
+	<Page.BottomAppBar>
+		<AppBar>
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+				<StackPanel Orientation="Horizontal">
+					<AppBarButton HorizontalAlignment="Stretch" Icon="Download" Label="Indlæs" VerticalAlignment="Stretch"/>
+				</StackPanel>
+				<StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal">
+					<AppBarButton HorizontalAlignment="Stretch" Icon="Save" Label="Gem" VerticalAlignment="Stretch"/>
+				</StackPanel>
+			</Grid>
+		</AppBar>
+	</Page.BottomAppBar>
 
     <!--
         This grid acts as a root panel for the page that defines two rows:
@@ -40,9 +56,7 @@
 				<Run Text="Skriv kommentar"/>
 				<Run Text=":"/>
             </TextBlock>
-            <Slider x:Name="commentSlider" HorizontalAlignment="Left" Margin="776,523,0,0" VerticalAlignment="Top" Width="110" Maximum="5" Minimum="1"/>
-            <TextBlock HorizontalAlignment="Left" Margin="776,467,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" Width="295" Text="Angiv rating:"/>
-            <Button x:ConnectionId='1' Content="Udfør" HorizontalAlignment="Left" Height="40" Margin="1074,557,0,0" VerticalAlignment="Top" Width="100"                     />
+            <Button x:ConnectionId='1' Content="Tilføj" HorizontalAlignment="Left" Height="40" Margin="1074,557,0,0" VerticalAlignment="Top" Width="100"                     />
             <ListView HorizontalAlignment="Left" Height="203" Margin="85,182,0,0" VerticalAlignment="Top" Width="240" ItemsSource="{Binding Kategorier, Mode=TwoWay}" SelectedItem="{Binding SelectedKategori, Mode=TwoWay}"/>
             <ListView HorizontalAlignment="Left" Height="210" Margin="85,435,0,0" VerticalAlignment="Top" Width="240" ItemsSource="{Binding SelectedKategori.Restaurants}" SelectedItem="{Binding SelectedResaurant, Mode=TwoWay}"/>
         </Grid>
