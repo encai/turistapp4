@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -19,6 +20,20 @@ namespace RestaurantAppVersion4.Model
         private string _openHours;
         private string _contact;
         private string _ImageUrl;
+        private ObservableCollection<KommentarModel> _kommentarKatalog;
+        private KommentarModel _selectedKommentar;
+
+        public ObservableCollection<KommentarModel> KommentarKatalog
+        {
+            get { return _kommentarKatalog; }
+            set { _kommentarKatalog = value; }
+        }
+
+        public KommentarModel SelectedKommentar
+        {
+            get { return _selectedKommentar; }
+            set { _selectedKommentar = value; OnPropertyChanged("SelectedKommentar"); }
+        }
 
 
         public string Name
@@ -57,9 +72,27 @@ namespace RestaurantAppVersion4.Model
             set { _ImageUrl = value; }
         }
 
+        public RestaurantModel()
+        {
+            
+            _kommentarKatalog = new ObservableCollection<KommentarModel>();
+        
+        }
+
+        public void AddKommentarTwo(string text)
+        {
+            _kommentarKatalog.Add(new KommentarModel(text));
+            OnPropertyChanged("KommentarKatalog");
+        }
+
+        public void Update()
+        {
+            OnPropertyChanged();
+        }
+
         public override string ToString()
         {
-            return Name.ToString();
+            return string.Format(_name);
         }
 
 

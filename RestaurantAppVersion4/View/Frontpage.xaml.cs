@@ -121,16 +121,15 @@ namespace RestaurantAppVersion4
         {
             //frontpageGrid.Background = new SolidColorBrush(Colors.LimeGreen);
             frontpagegrid2.Background = new SolidColorBrush(Colors.Black);
-            
-            
-            
-            
+            ratingButton1.Background = new SolidColorBrush(Colors.Blue);
+  
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             //frontpageGrid.Background = new SolidColorBrush(Colors.DeepSkyBlue);
             frontpagegrid2.Background = new SolidColorBrush(Colors.DeepSkyBlue);
+            ratingButton1.Background = new SolidColorBrush(Colors.Blue);
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
@@ -139,6 +138,7 @@ namespace RestaurantAppVersion4
             test1.ImageSource = new BitmapImage(new Uri("ms-appx:///Assets/jul1.jpg"));
             frontpagegrid2.Background = test1;
             //frontpageGrid.Background = test1;
+            ratingButton1.Background = new SolidColorBrush(Colors.DarkRed);
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)

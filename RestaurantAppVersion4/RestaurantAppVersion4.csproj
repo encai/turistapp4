@@ -108,8 +108,8 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\ItemDetailPage1.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -118,15 +118,15 @@
     </Compile>
     <Compile Include="Common\NavigationHelper.cs" />
     <Compile Include="Common\ObservableDictionary.cs" />
-    <Compile Include="Common\RelayCommand.cs" />
+    <Compile Include="ViewModel\RelayCommand.cs" />
     <Compile Include="Common\SuspensionManager.cs" />
-    <Compile Include="Model\Comment.cs" />
     <Compile Include="Model\KategoriModel.cs" />
-    <Compile Include="Model\PersistenceFacade.cs" />
+    <Compile Include="Model\KommentarModel.cs" />
     <Compile Include="Model\RestaurantModel.cs" />
     <Compile Include="Properties\Annotations.cs" />
-    <Compile Include="ViewModel\CommentHandler.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\OpretKommentarHandler.cs" />
+    <Compile Include="ViewModel\SingletonViewModel.cs" />
     <Compile Include="View\Frontpage.xaml.cs">
       <DependentUpon>Frontpage.xaml</DependentUpon>
     </Compile>
@@ -157,9 +157,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">

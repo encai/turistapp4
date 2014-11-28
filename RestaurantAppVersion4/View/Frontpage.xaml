@@ -5,7 +5,7 @@
     xmlns:common="using:RestaurantAppVersion4.Common"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:ViewModel="using:RestaurantAppVersion4.Model"
+    xmlns:ViewModel="using:RestaurantAppVersion4.ViewModel"
     x:Name="pageRoot"
     x:Class="RestaurantAppVersion4.Frontpage"
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Mode=Self}}"
@@ -108,30 +108,34 @@
         <ListView Height="160" Margin="35,80,10,0" Grid.Row="1" VerticalAlignment="Top" ItemsSource="{Binding Kategorier, Mode=TwoWay}" SelectedItem="{Binding SelectedKategori, Mode=TwoWay}" ItemContainerStyle="{StaticResource ListViewItemStyle1}" DataFetchSize="3"/>
         <ListView HorizontalAlignment="Left" Height="260" Margin="35,300,0,0" Grid.Row="1" VerticalAlignment="Top" Width="190" ItemsSource="{Binding SelectedKategori.Restaurants}" SelectedItem="{Binding SelectedResaurant, Mode=TwoWay}"/>
         <TextBlock HorizontalAlignment="Left" Height="55" Margin="35,245,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Restauranter" VerticalAlignment="Top" Width="290" FontSize="48"/>
-        <TextBlock HorizontalAlignment="Left" Margin="25,319,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding SelectedResaurant.Name, Mode=TwoWay, UpdateSourceTrigger=Default}" VerticalAlignment="Top" FontSize="36" FontFamily="Gungsuh" Foreground="White" FontWeight="Bold" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Left" Height="55" Margin="25,375,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="22" Text="Prisklasse:" FontFamily="Global user" Grid.Column="1"/>
-        <TextBlock x:Name="Price" HorizontalAlignment="Left" Margin="180,375,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding SelectedResaurant.PriceClass, Mode=TwoWay, UpdateSourceTrigger=Default}" VerticalAlignment="Top" FontSize="22" Foreground="#FF00079C" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Left" Height="55" Margin="25,410,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="135" FontSize="22" Text="Adresse:" FontFamily="Global user" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Left" Margin="180,410,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding SelectedResaurant.Adress, Mode=TwoWay, UpdateSourceTrigger=Default}" VerticalAlignment="Top" FontSize="22" Foreground="#FF00079C" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Left" Height="42" Margin="25,445,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" FontSize="22" FontFamily="Global user" Grid.Column="1">
+        <TextBlock HorizontalAlignment="Left" Margin="25,344,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding SelectedResaurant.Name, Mode=TwoWay, UpdateSourceTrigger=Default}" VerticalAlignment="Top" FontSize="36" FontFamily="Gungsuh" Foreground="White" FontWeight="Bold" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Height="55" Margin="25,405,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="22" Text="Prisklasse:" FontFamily="Global user" Grid.Column="1"/>
+        <TextBlock x:Name="Price" HorizontalAlignment="Left" Margin="180,405,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding SelectedResaurant.PriceClass, Mode=TwoWay, UpdateSourceTrigger=Default}" VerticalAlignment="Top" FontSize="22" Foreground="#FF00079C" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Height="55" Margin="25,440,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="135" FontSize="22" Text="Adresse:" FontFamily="Global user" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="180,440,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding SelectedResaurant.Adress, Mode=TwoWay, UpdateSourceTrigger=Default}" VerticalAlignment="Top" FontSize="22" Foreground="#FF00079C" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Height="42" Margin="25,475,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" FontSize="22" FontFamily="Global user" Grid.Column="1">
         	<Run Text="Åbningstider"/>
         	<Run Text=":"/>
         </TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="180,445,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding SelectedResaurant.OpenHours, Mode=TwoWay, UpdateSourceTrigger=Default}" VerticalAlignment="Top" FontSize="22" Foreground="#FF00079C" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Left" Height="55" Margin="25,505,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" FontSize="22" Text="Kontakt:" FontFamily="Global user" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Left" Margin="180,505,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding SelectedResaurant.Contact, Mode=TwoWay, UpdateSourceTrigger=Default}" VerticalAlignment="Top" FontSize="22" Foreground="#FF00079C" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="180,475,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding SelectedResaurant.OpenHours, Mode=TwoWay, UpdateSourceTrigger=Default}" VerticalAlignment="Top" FontSize="22" Foreground="#FF00079C" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Height="55" Margin="25,535,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" FontSize="22" Text="Kontakt:" FontFamily="Global user" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="180,535,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding SelectedResaurant.Contact, Mode=TwoWay, UpdateSourceTrigger=Default}" VerticalAlignment="Top" FontSize="22" Foreground="#FF00079C" Grid.Column="1"/>
         <Button Content="Skift til jul" HorizontalAlignment="Left" Margin="747,84,0,0" VerticalAlignment="Top" Click="Button_Click_2" Height="38" Grid.Column="1" Width="117"/>
         <Button Content="Skift til blå" HorizontalAlignment="Left" Height="38" Margin="747,20,0,0" VerticalAlignment="Top" Width="117" Click="Button_Click_1" Grid.Column="1"/>
         <Button x:Name="Knap1" Content="Skift til sort" HorizontalAlignment="Left" Margin="747,52,0,0" VerticalAlignment="Top" Click="Button_Click" Grid.Column="1" Width="117"/>
-        <Image HorizontalAlignment="Left" Height="240" Margin="10,35,0,0" VerticalAlignment="Top" Width="405" Source="{Binding SelectedResaurant.ImageURL}" Grid.Row="1" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="240" Margin="25,80,0,0" VerticalAlignment="Top" Width="405" Source="{Binding SelectedResaurant.ImageURL}" Grid.Row="1" Grid.Column="1"/>
         <TextBlock x:Name="pageTitle_Copy" Style="{StaticResource HeaderTextBlockStyle}" 
         	IsHitTestVisible="false" TextWrapping="NoWrap" Margin="100,0,402,21" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Buxton Sketch" FontStyle="Italic" FontWeight="Bold" Grid.Column="1" Width="484" Height="72">
         	<Run Text="   "/>
         	<Run Text="VELKOMMEN!"/>
         </TextBlock>
-        <Button Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="714,531,0,0" Grid.Row="1" VerticalAlignment="Top" Click="Button_Click_3"/>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="437,55,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Kommentar:" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.185,0.769"/>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="437,245,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Din rating:" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.185,0.769"/>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="450,109,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Button x:Name="ratingButton1" Content="TILFØJ EN KOMMENTAR&#xA;TIL EN RESTAURANT&#xA;" Grid.Column="1" HorizontalAlignment="Left" Height="64" Margin="662,552,0,0" Grid.Row="1" VerticalAlignment="Top" Width="225" Click="Button_Click_3" Background="#FF2931DC"/>
+        <ListBox Grid.Column="1" HorizontalAlignment="Left" Height="245" Margin="530,80,0,0" Grid.Row="1" VerticalAlignment="Top" Width="205" ItemsSource="{Binding SelectedResaurant.KommentarKatalog}" SelectedItem="{Binding SelectedResaurant.SelectedKommentar, Mode=TwoWay}"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="530,387,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding SelectedResaurant.SelectedKommentar.ComText}" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="55" Margin="530,344,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" FontSize="22" Text="Valgt kommentar:" FontFamily="Global user" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Height="55" Margin="530,5,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="366" FontSize="22" FontFamily="Global user" Grid.Column="1">
+        	<Run FontSize="48" Text="Kommentar"/>
+        	<Run FontSize="48" Text=":"/>
+        </TextBlock>
     </Grid>
 </Page>

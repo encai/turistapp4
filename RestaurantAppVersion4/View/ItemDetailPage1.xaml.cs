@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -13,8 +14,12 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using RestaurantAppVersion4;
+using RestaurantAppVersion4.Model;
 
 // The Item Detail Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234232
+using RestaurantAppVersion4.Model;
+using RestaurantAppVersion4.ViewModel;
 
 namespace RestaurantAppVersion4.View
 {
@@ -97,5 +102,21 @@ namespace RestaurantAppVersion4.View
         }
 
         #endregion
+
+       
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (Katalog.SelectedResaurant != null)
+            {
+                Katalog.SelectedResaurant.AddKommentarTwo(commentBox.Text);
+                this.Frame.Navigate(typeof(Frontpage));
+            }
+            else
+            {
+                Debug.WriteLine("Remember to choose a restaurant!");
+            }
+           
+        }
     }
 }
