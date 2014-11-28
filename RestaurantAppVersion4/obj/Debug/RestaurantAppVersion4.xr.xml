@@ -15,6 +15,8 @@
     <RootPropertyPathName Name="SelectedKategori" />
     <RootPropertyPathName Name="Restaurants" />
     <RootPropertyPathName Name="Kategorier" />
+    <RootPropertyPathName Name="SaveCommand" />
+    <RootPropertyPathName Name="LoadCommand" />
     <RootPropertyPathName Name="Title" />
     <RootPropertyPathName Name="NavigationHelper" />
     <RootPropertyPathName Name="GoBackCommand" />
@@ -272,6 +274,8 @@
       <RootProperty Name="Icon" />
       <RootProperty Name="Label" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="DataContext" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="HorizontalAlignment" />

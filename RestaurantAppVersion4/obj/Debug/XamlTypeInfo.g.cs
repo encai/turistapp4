@@ -124,57 +124,53 @@ namespace RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[24];
+            _typeNameTable = new string[22];
             _typeNameTable[0] = "Windows.UI.Color";
             _typeNameTable[1] = "System.ValueType";
             _typeNameTable[2] = "Object";
             _typeNameTable[3] = "Byte";
             _typeNameTable[4] = "RestaurantAppVersion4.ViewModel.MainViewModel";
-            _typeNameTable[5] = "RestaurantAppVersion4.Model.RestaurantModel";
-            _typeNameTable[6] = "RestaurantAppVersion4.Model.KategoriModel";
-            _typeNameTable[7] = "System.Collections.ObjectModel.ObservableCollection`1<RestaurantAppVersion4.Model.RestaurantModel>";
-            _typeNameTable[8] = "System.Collections.ObjectModel.Collection`1<RestaurantAppVersion4.Model.RestaurantModel>";
-            _typeNameTable[9] = "System.Collections.ObjectModel.ObservableCollection`1<RestaurantAppVersion4.Model.KommentarModel>";
-            _typeNameTable[10] = "System.Collections.ObjectModel.Collection`1<RestaurantAppVersion4.Model.KommentarModel>";
-            _typeNameTable[11] = "RestaurantAppVersion4.Model.KommentarModel";
-            _typeNameTable[12] = "String";
-            _typeNameTable[13] = "Int32";
-            _typeNameTable[14] = "System.Collections.ObjectModel.ObservableCollection`1<RestaurantAppVersion4.Model.KategoriModel>";
-            _typeNameTable[15] = "System.Collections.ObjectModel.Collection`1<RestaurantAppVersion4.Model.KategoriModel>";
-            _typeNameTable[16] = "System.Collections.Generic.List`1<RestaurantAppVersion4.Model.RestaurantModel>";
-            _typeNameTable[17] = "RestaurantAppVersion4.Frontpage";
-            _typeNameTable[18] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[19] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[20] = "RestaurantAppVersion4.Common.ObservableDictionary";
-            _typeNameTable[21] = "RestaurantAppVersion4.Common.NavigationHelper";
-            _typeNameTable[22] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[23] = "RestaurantAppVersion4.View.ItemDetailPage1";
+            _typeNameTable[5] = "System.Windows.Input.ICommand";
+            _typeNameTable[6] = "RestaurantAppVersion4.Model.RestaurantModel";
+            _typeNameTable[7] = "RestaurantAppVersion4.Model.KategoriModel";
+            _typeNameTable[8] = "System.Collections.ObjectModel.ObservableCollection`1<RestaurantAppVersion4.Model.RestaurantModel>";
+            _typeNameTable[9] = "System.Collections.ObjectModel.Collection`1<RestaurantAppVersion4.Model.RestaurantModel>";
+            _typeNameTable[10] = "RestaurantAppVersion4.Model.KommentarModel";
+            _typeNameTable[11] = "String";
+            _typeNameTable[12] = "System.Collections.ObjectModel.ObservableCollection`1<RestaurantAppVersion4.Model.KategoriModel>";
+            _typeNameTable[13] = "System.Collections.ObjectModel.Collection`1<RestaurantAppVersion4.Model.KategoriModel>";
+            _typeNameTable[14] = "System.Collections.Generic.List`1<RestaurantAppVersion4.Model.RestaurantModel>";
+            _typeNameTable[15] = "RestaurantAppVersion4.Frontpage";
+            _typeNameTable[16] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[17] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[18] = "RestaurantAppVersion4.Common.ObservableDictionary";
+            _typeNameTable[19] = "RestaurantAppVersion4.Common.NavigationHelper";
+            _typeNameTable[20] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[21] = "RestaurantAppVersion4.View.ItemDetailPage1";
 
-            _typeTable = new global::System.Type[24];
+            _typeTable = new global::System.Type[22];
             _typeTable[0] = typeof(global::Windows.UI.Color);
             _typeTable[1] = typeof(global::System.ValueType);
             _typeTable[2] = typeof(global::System.Object);
             _typeTable[3] = typeof(global::System.Byte);
             _typeTable[4] = typeof(global::RestaurantAppVersion4.ViewModel.MainViewModel);
-            _typeTable[5] = typeof(global::RestaurantAppVersion4.Model.RestaurantModel);
-            _typeTable[6] = typeof(global::RestaurantAppVersion4.Model.KategoriModel);
-            _typeTable[7] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::RestaurantAppVersion4.Model.RestaurantModel>);
-            _typeTable[8] = typeof(global::System.Collections.ObjectModel.Collection<global::RestaurantAppVersion4.Model.RestaurantModel>);
-            _typeTable[9] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::RestaurantAppVersion4.Model.KommentarModel>);
-            _typeTable[10] = typeof(global::System.Collections.ObjectModel.Collection<global::RestaurantAppVersion4.Model.KommentarModel>);
-            _typeTable[11] = typeof(global::RestaurantAppVersion4.Model.KommentarModel);
-            _typeTable[12] = typeof(global::System.String);
-            _typeTable[13] = typeof(global::System.Int32);
-            _typeTable[14] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::RestaurantAppVersion4.Model.KategoriModel>);
-            _typeTable[15] = typeof(global::System.Collections.ObjectModel.Collection<global::RestaurantAppVersion4.Model.KategoriModel>);
-            _typeTable[16] = typeof(global::System.Collections.Generic.List<global::RestaurantAppVersion4.Model.RestaurantModel>);
-            _typeTable[17] = typeof(global::RestaurantAppVersion4.Frontpage);
-            _typeTable[18] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[19] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[20] = typeof(global::RestaurantAppVersion4.Common.ObservableDictionary);
-            _typeTable[21] = typeof(global::RestaurantAppVersion4.Common.NavigationHelper);
-            _typeTable[22] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[23] = typeof(global::RestaurantAppVersion4.View.ItemDetailPage1);
+            _typeTable[5] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[6] = typeof(global::RestaurantAppVersion4.Model.RestaurantModel);
+            _typeTable[7] = typeof(global::RestaurantAppVersion4.Model.KategoriModel);
+            _typeTable[8] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::RestaurantAppVersion4.Model.RestaurantModel>);
+            _typeTable[9] = typeof(global::System.Collections.ObjectModel.Collection<global::RestaurantAppVersion4.Model.RestaurantModel>);
+            _typeTable[10] = typeof(global::RestaurantAppVersion4.Model.KommentarModel);
+            _typeTable[11] = typeof(global::System.String);
+            _typeTable[12] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::RestaurantAppVersion4.Model.KategoriModel>);
+            _typeTable[13] = typeof(global::System.Collections.ObjectModel.Collection<global::RestaurantAppVersion4.Model.KategoriModel>);
+            _typeTable[14] = typeof(global::System.Collections.Generic.List<global::RestaurantAppVersion4.Model.RestaurantModel>);
+            _typeTable[15] = typeof(global::RestaurantAppVersion4.Frontpage);
+            _typeTable[16] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[17] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[18] = typeof(global::RestaurantAppVersion4.Common.ObservableDictionary);
+            _typeTable[19] = typeof(global::RestaurantAppVersion4.Common.NavigationHelper);
+            _typeTable[20] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[21] = typeof(global::RestaurantAppVersion4.View.ItemDetailPage1);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -210,61 +206,47 @@ namespace RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo
         }
 
         private object Activate_4_MainViewModel() { return new global::RestaurantAppVersion4.ViewModel.MainViewModel(); }
-        private object Activate_5_RestaurantModel() { return new global::RestaurantAppVersion4.Model.RestaurantModel(); }
-        private object Activate_6_KategoriModel() { return new global::RestaurantAppVersion4.Model.KategoriModel(); }
-        private object Activate_7_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::RestaurantAppVersion4.Model.RestaurantModel>(); }
-        private object Activate_8_Collection() { return new global::System.Collections.ObjectModel.Collection<global::RestaurantAppVersion4.Model.RestaurantModel>(); }
-        private object Activate_9_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::RestaurantAppVersion4.Model.KommentarModel>(); }
-        private object Activate_10_Collection() { return new global::System.Collections.ObjectModel.Collection<global::RestaurantAppVersion4.Model.KommentarModel>(); }
-        private object Activate_14_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::RestaurantAppVersion4.Model.KategoriModel>(); }
-        private object Activate_15_Collection() { return new global::System.Collections.ObjectModel.Collection<global::RestaurantAppVersion4.Model.KategoriModel>(); }
-        private object Activate_16_List() { return new global::System.Collections.Generic.List<global::RestaurantAppVersion4.Model.RestaurantModel>(); }
-        private object Activate_17_Frontpage() { return new global::RestaurantAppVersion4.Frontpage(); }
-        private object Activate_20_ObservableDictionary() { return new global::RestaurantAppVersion4.Common.ObservableDictionary(); }
-        private object Activate_23_ItemDetailPage1() { return new global::RestaurantAppVersion4.View.ItemDetailPage1(); }
-        private void VectorAdd_7_ObservableCollection(object instance, object item)
+        private object Activate_6_RestaurantModel() { return new global::RestaurantAppVersion4.Model.RestaurantModel(); }
+        private object Activate_7_KategoriModel() { return new global::RestaurantAppVersion4.Model.KategoriModel(); }
+        private object Activate_8_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::RestaurantAppVersion4.Model.RestaurantModel>(); }
+        private object Activate_9_Collection() { return new global::System.Collections.ObjectModel.Collection<global::RestaurantAppVersion4.Model.RestaurantModel>(); }
+        private object Activate_12_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::RestaurantAppVersion4.Model.KategoriModel>(); }
+        private object Activate_13_Collection() { return new global::System.Collections.ObjectModel.Collection<global::RestaurantAppVersion4.Model.KategoriModel>(); }
+        private object Activate_14_List() { return new global::System.Collections.Generic.List<global::RestaurantAppVersion4.Model.RestaurantModel>(); }
+        private object Activate_15_Frontpage() { return new global::RestaurantAppVersion4.Frontpage(); }
+        private object Activate_18_ObservableDictionary() { return new global::RestaurantAppVersion4.Common.ObservableDictionary(); }
+        private object Activate_21_ItemDetailPage1() { return new global::RestaurantAppVersion4.View.ItemDetailPage1(); }
+        private void VectorAdd_8_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::RestaurantAppVersion4.Model.RestaurantModel>)instance;
             var newItem = (global::RestaurantAppVersion4.Model.RestaurantModel)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_8_Collection(object instance, object item)
+        private void VectorAdd_9_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::RestaurantAppVersion4.Model.RestaurantModel>)instance;
             var newItem = (global::RestaurantAppVersion4.Model.RestaurantModel)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_9_ObservableCollection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::RestaurantAppVersion4.Model.KommentarModel>)instance;
-            var newItem = (global::RestaurantAppVersion4.Model.KommentarModel)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_10_Collection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::RestaurantAppVersion4.Model.KommentarModel>)instance;
-            var newItem = (global::RestaurantAppVersion4.Model.KommentarModel)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_14_ObservableCollection(object instance, object item)
+        private void VectorAdd_12_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::RestaurantAppVersion4.Model.KategoriModel>)instance;
             var newItem = (global::RestaurantAppVersion4.Model.KategoriModel)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_15_Collection(object instance, object item)
+        private void VectorAdd_13_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::RestaurantAppVersion4.Model.KategoriModel>)instance;
             var newItem = (global::RestaurantAppVersion4.Model.KategoriModel)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_16_List(object instance, object item)
+        private void VectorAdd_14_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::RestaurantAppVersion4.Model.RestaurantModel>)instance;
             var newItem = (global::RestaurantAppVersion4.Model.RestaurantModel)item;
             collection.Add(newItem);
         }
-        private void MapAdd_20_ObservableDictionary(object instance, object key, object item)
+        private void MapAdd_18_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
             var newKey = (global::System.String)key;
@@ -309,6 +291,8 @@ namespace RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo
             case 4:   //  RestaurantAppVersion4.ViewModel.MainViewModel
                 userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_4_MainViewModel;
+                userType.AddMemberName("SaveCommand");
+                userType.AddMemberName("LoadCommand");
                 userType.AddMemberName("SelectedResaurant");
                 userType.AddMemberName("SelectedKategori");
                 userType.AddMemberName("Restaurants");
@@ -317,10 +301,15 @@ namespace RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 5:   //  RestaurantAppVersion4.Model.RestaurantModel
+            case 5:   //  System.Windows.Input.ICommand
+                userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 6:   //  RestaurantAppVersion4.Model.RestaurantModel
                 userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_5_RestaurantModel;
-                userType.AddMemberName("KommentarKatalog");
+                userType.Activator = Activate_6_RestaurantModel;
                 userType.AddMemberName("SelectedKommentar");
                 userType.AddMemberName("Name");
                 userType.AddMemberName("PriceClass");
@@ -332,9 +321,9 @@ namespace RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 6:   //  RestaurantAppVersion4.Model.KategoriModel
+            case 7:   //  RestaurantAppVersion4.Model.KategoriModel
                 userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_6_KategoriModel;
+                userType.Activator = Activate_7_KategoriModel;
                 userType.AddMemberName("Name");
                 userType.AddMemberName("Restaurants");
                 userType.AddMemberName("ImageUrl");
@@ -342,110 +331,91 @@ namespace RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 7:   //  System.Collections.ObjectModel.ObservableCollection`1<RestaurantAppVersion4.Model.RestaurantModel>
+            case 8:   //  System.Collections.ObjectModel.ObservableCollection`1<RestaurantAppVersion4.Model.RestaurantModel>
                 userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<RestaurantAppVersion4.Model.RestaurantModel>"));
-                userType.CollectionAdd = VectorAdd_7_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_8_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 8:   //  System.Collections.ObjectModel.Collection`1<RestaurantAppVersion4.Model.RestaurantModel>
+            case 9:   //  System.Collections.ObjectModel.Collection`1<RestaurantAppVersion4.Model.RestaurantModel>
                 userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_8_Collection;
-                userType.CollectionAdd = VectorAdd_8_Collection;
+                userType.Activator = Activate_9_Collection;
+                userType.CollectionAdd = VectorAdd_9_Collection;
                 xamlType = userType;
                 break;
 
-            case 9:   //  System.Collections.ObjectModel.ObservableCollection`1<RestaurantAppVersion4.Model.KommentarModel>
-                userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<RestaurantAppVersion4.Model.KommentarModel>"));
-                userType.CollectionAdd = VectorAdd_9_ObservableCollection;
+            case 10:   //  RestaurantAppVersion4.Model.KommentarModel
+                userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 10:   //  System.Collections.ObjectModel.Collection`1<RestaurantAppVersion4.Model.KommentarModel>
-                userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_10_Collection;
-                userType.CollectionAdd = VectorAdd_10_Collection;
-                xamlType = userType;
-                break;
-
-            case 11:   //  RestaurantAppVersion4.Model.KommentarModel
-                userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.AddMemberName("ComText");
-                userType.AddMemberName("ComRating");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 12:   //  String
+            case 11:   //  String
                 xamlType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 13:   //  Int32
-                xamlType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 14:   //  System.Collections.ObjectModel.ObservableCollection`1<RestaurantAppVersion4.Model.KategoriModel>
+            case 12:   //  System.Collections.ObjectModel.ObservableCollection`1<RestaurantAppVersion4.Model.KategoriModel>
                 userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<RestaurantAppVersion4.Model.KategoriModel>"));
-                userType.CollectionAdd = VectorAdd_14_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_12_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 15:   //  System.Collections.ObjectModel.Collection`1<RestaurantAppVersion4.Model.KategoriModel>
+            case 13:   //  System.Collections.ObjectModel.Collection`1<RestaurantAppVersion4.Model.KategoriModel>
                 userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_15_Collection;
-                userType.CollectionAdd = VectorAdd_15_Collection;
+                userType.Activator = Activate_13_Collection;
+                userType.CollectionAdd = VectorAdd_13_Collection;
                 xamlType = userType;
                 break;
 
-            case 16:   //  System.Collections.Generic.List`1<RestaurantAppVersion4.Model.RestaurantModel>
+            case 14:   //  System.Collections.Generic.List`1<RestaurantAppVersion4.Model.RestaurantModel>
                 userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_16_List;
+                userType.CollectionAdd = VectorAdd_14_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 17:   //  RestaurantAppVersion4.Frontpage
+            case 15:   //  RestaurantAppVersion4.Frontpage
                 userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_17_Frontpage;
+                userType.Activator = Activate_15_Frontpage;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 18:   //  Windows.UI.Xaml.Controls.Page
+            case 16:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 19:   //  Windows.UI.Xaml.Controls.UserControl
+            case 17:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 20:   //  RestaurantAppVersion4.Common.ObservableDictionary
+            case 18:   //  RestaurantAppVersion4.Common.ObservableDictionary
                 userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.DictionaryAdd = MapAdd_20_ObservableDictionary;
+                userType.DictionaryAdd = MapAdd_18_ObservableDictionary;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 21:   //  RestaurantAppVersion4.Common.NavigationHelper
+            case 19:   //  RestaurantAppVersion4.Common.NavigationHelper
                 userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 22:   //  Windows.UI.Xaml.DependencyObject
+            case 20:   //  Windows.UI.Xaml.DependencyObject
                 xamlType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 23:   //  RestaurantAppVersion4.View.ItemDetailPage1
+            case 21:   //  RestaurantAppVersion4.View.ItemDetailPage1
                 userType = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_23_ItemDetailPage1;
+                userType.Activator = Activate_21_ItemDetailPage1;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
@@ -496,192 +466,182 @@ namespace RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo
             var that = (global::Windows.UI.Color)instance;
             that.R = (global::System.Byte)Value;
         }
-        private object get_4_MainViewModel_SelectedResaurant(object instance)
+        private object get_4_MainViewModel_SaveCommand(object instance)
+        {
+            var that = (global::RestaurantAppVersion4.ViewModel.MainViewModel)instance;
+            return that.SaveCommand;
+        }
+        private void set_4_MainViewModel_SaveCommand(object instance, object Value)
+        {
+            var that = (global::RestaurantAppVersion4.ViewModel.MainViewModel)instance;
+            that.SaveCommand = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_5_MainViewModel_LoadCommand(object instance)
+        {
+            var that = (global::RestaurantAppVersion4.ViewModel.MainViewModel)instance;
+            return that.LoadCommand;
+        }
+        private void set_5_MainViewModel_LoadCommand(object instance, object Value)
+        {
+            var that = (global::RestaurantAppVersion4.ViewModel.MainViewModel)instance;
+            that.LoadCommand = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_6_MainViewModel_SelectedResaurant(object instance)
         {
             var that = (global::RestaurantAppVersion4.ViewModel.MainViewModel)instance;
             return that.SelectedResaurant;
         }
-        private void set_4_MainViewModel_SelectedResaurant(object instance, object Value)
+        private void set_6_MainViewModel_SelectedResaurant(object instance, object Value)
         {
             var that = (global::RestaurantAppVersion4.ViewModel.MainViewModel)instance;
             that.SelectedResaurant = (global::RestaurantAppVersion4.Model.RestaurantModel)Value;
         }
-        private object get_5_MainViewModel_SelectedKategori(object instance)
+        private object get_7_MainViewModel_SelectedKategori(object instance)
         {
             var that = (global::RestaurantAppVersion4.ViewModel.MainViewModel)instance;
             return that.SelectedKategori;
         }
-        private void set_5_MainViewModel_SelectedKategori(object instance, object Value)
+        private void set_7_MainViewModel_SelectedKategori(object instance, object Value)
         {
             var that = (global::RestaurantAppVersion4.ViewModel.MainViewModel)instance;
             that.SelectedKategori = (global::RestaurantAppVersion4.Model.KategoriModel)Value;
         }
-        private object get_6_MainViewModel_Restaurants(object instance)
+        private object get_8_MainViewModel_Restaurants(object instance)
         {
             var that = (global::RestaurantAppVersion4.ViewModel.MainViewModel)instance;
             return that.Restaurants;
         }
-        private void set_6_MainViewModel_Restaurants(object instance, object Value)
+        private void set_8_MainViewModel_Restaurants(object instance, object Value)
         {
             var that = (global::RestaurantAppVersion4.ViewModel.MainViewModel)instance;
             that.Restaurants = (global::System.Collections.ObjectModel.ObservableCollection<global::RestaurantAppVersion4.Model.RestaurantModel>)Value;
         }
-        private object get_7_RestaurantModel_KommentarKatalog(object instance)
-        {
-            var that = (global::RestaurantAppVersion4.Model.RestaurantModel)instance;
-            return that.KommentarKatalog;
-        }
-        private void set_7_RestaurantModel_KommentarKatalog(object instance, object Value)
-        {
-            var that = (global::RestaurantAppVersion4.Model.RestaurantModel)instance;
-            that.KommentarKatalog = (global::System.Collections.ObjectModel.ObservableCollection<global::RestaurantAppVersion4.Model.KommentarModel>)Value;
-        }
-        private object get_8_KommentarModel_ComText(object instance)
-        {
-            var that = (global::RestaurantAppVersion4.Model.KommentarModel)instance;
-            return that.ComText;
-        }
-        private void set_8_KommentarModel_ComText(object instance, object Value)
-        {
-            var that = (global::RestaurantAppVersion4.Model.KommentarModel)instance;
-            that.ComText = (global::System.String)Value;
-        }
-        private object get_9_KommentarModel_ComRating(object instance)
-        {
-            var that = (global::RestaurantAppVersion4.Model.KommentarModel)instance;
-            return that.ComRating;
-        }
-        private void set_9_KommentarModel_ComRating(object instance, object Value)
-        {
-            var that = (global::RestaurantAppVersion4.Model.KommentarModel)instance;
-            that.ComRating = (global::System.Int32)Value;
-        }
-        private object get_10_RestaurantModel_SelectedKommentar(object instance)
+        private object get_9_RestaurantModel_SelectedKommentar(object instance)
         {
             var that = (global::RestaurantAppVersion4.Model.RestaurantModel)instance;
             return that.SelectedKommentar;
         }
-        private void set_10_RestaurantModel_SelectedKommentar(object instance, object Value)
+        private void set_9_RestaurantModel_SelectedKommentar(object instance, object Value)
         {
             var that = (global::RestaurantAppVersion4.Model.RestaurantModel)instance;
             that.SelectedKommentar = (global::RestaurantAppVersion4.Model.KommentarModel)Value;
         }
-        private object get_11_RestaurantModel_Name(object instance)
+        private object get_10_RestaurantModel_Name(object instance)
         {
             var that = (global::RestaurantAppVersion4.Model.RestaurantModel)instance;
             return that.Name;
         }
-        private void set_11_RestaurantModel_Name(object instance, object Value)
+        private void set_10_RestaurantModel_Name(object instance, object Value)
         {
             var that = (global::RestaurantAppVersion4.Model.RestaurantModel)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_12_RestaurantModel_PriceClass(object instance)
+        private object get_11_RestaurantModel_PriceClass(object instance)
         {
             var that = (global::RestaurantAppVersion4.Model.RestaurantModel)instance;
             return that.PriceClass;
         }
-        private void set_12_RestaurantModel_PriceClass(object instance, object Value)
+        private void set_11_RestaurantModel_PriceClass(object instance, object Value)
         {
             var that = (global::RestaurantAppVersion4.Model.RestaurantModel)instance;
             that.PriceClass = (global::System.String)Value;
         }
-        private object get_13_RestaurantModel_Adress(object instance)
+        private object get_12_RestaurantModel_Adress(object instance)
         {
             var that = (global::RestaurantAppVersion4.Model.RestaurantModel)instance;
             return that.Adress;
         }
-        private void set_13_RestaurantModel_Adress(object instance, object Value)
+        private void set_12_RestaurantModel_Adress(object instance, object Value)
         {
             var that = (global::RestaurantAppVersion4.Model.RestaurantModel)instance;
             that.Adress = (global::System.String)Value;
         }
-        private object get_14_RestaurantModel_OpenHours(object instance)
+        private object get_13_RestaurantModel_OpenHours(object instance)
         {
             var that = (global::RestaurantAppVersion4.Model.RestaurantModel)instance;
             return that.OpenHours;
         }
-        private void set_14_RestaurantModel_OpenHours(object instance, object Value)
+        private void set_13_RestaurantModel_OpenHours(object instance, object Value)
         {
             var that = (global::RestaurantAppVersion4.Model.RestaurantModel)instance;
             that.OpenHours = (global::System.String)Value;
         }
-        private object get_15_RestaurantModel_Contact(object instance)
+        private object get_14_RestaurantModel_Contact(object instance)
         {
             var that = (global::RestaurantAppVersion4.Model.RestaurantModel)instance;
             return that.Contact;
         }
-        private void set_15_RestaurantModel_Contact(object instance, object Value)
+        private void set_14_RestaurantModel_Contact(object instance, object Value)
         {
             var that = (global::RestaurantAppVersion4.Model.RestaurantModel)instance;
             that.Contact = (global::System.String)Value;
         }
-        private object get_16_RestaurantModel_ImageURL(object instance)
+        private object get_15_RestaurantModel_ImageURL(object instance)
         {
             var that = (global::RestaurantAppVersion4.Model.RestaurantModel)instance;
             return that.ImageURL;
         }
-        private void set_16_RestaurantModel_ImageURL(object instance, object Value)
+        private void set_15_RestaurantModel_ImageURL(object instance, object Value)
         {
             var that = (global::RestaurantAppVersion4.Model.RestaurantModel)instance;
             that.ImageURL = (global::System.String)Value;
         }
-        private object get_17_MainViewModel_Kategorier(object instance)
+        private object get_16_MainViewModel_Kategorier(object instance)
         {
             var that = (global::RestaurantAppVersion4.ViewModel.MainViewModel)instance;
             return that.Kategorier;
         }
-        private void set_17_MainViewModel_Kategorier(object instance, object Value)
+        private void set_16_MainViewModel_Kategorier(object instance, object Value)
         {
             var that = (global::RestaurantAppVersion4.ViewModel.MainViewModel)instance;
             that.Kategorier = (global::System.Collections.ObjectModel.ObservableCollection<global::RestaurantAppVersion4.Model.KategoriModel>)Value;
         }
-        private object get_18_KategoriModel_Name(object instance)
+        private object get_17_KategoriModel_Name(object instance)
         {
             var that = (global::RestaurantAppVersion4.Model.KategoriModel)instance;
             return that.Name;
         }
-        private void set_18_KategoriModel_Name(object instance, object Value)
+        private void set_17_KategoriModel_Name(object instance, object Value)
         {
             var that = (global::RestaurantAppVersion4.Model.KategoriModel)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_19_KategoriModel_Restaurants(object instance)
+        private object get_18_KategoriModel_Restaurants(object instance)
         {
             var that = (global::RestaurantAppVersion4.Model.KategoriModel)instance;
             return that.Restaurants;
         }
-        private void set_19_KategoriModel_Restaurants(object instance, object Value)
+        private void set_18_KategoriModel_Restaurants(object instance, object Value)
         {
             var that = (global::RestaurantAppVersion4.Model.KategoriModel)instance;
             that.Restaurants = (global::System.Collections.Generic.List<global::RestaurantAppVersion4.Model.RestaurantModel>)Value;
         }
-        private object get_20_KategoriModel_ImageUrl(object instance)
+        private object get_19_KategoriModel_ImageUrl(object instance)
         {
             var that = (global::RestaurantAppVersion4.Model.KategoriModel)instance;
             return that.ImageUrl;
         }
-        private void set_20_KategoriModel_ImageUrl(object instance, object Value)
+        private void set_19_KategoriModel_ImageUrl(object instance, object Value)
         {
             var that = (global::RestaurantAppVersion4.Model.KategoriModel)instance;
             that.ImageUrl = (global::System.String)Value;
         }
-        private object get_21_Frontpage_DefaultViewModel(object instance)
+        private object get_20_Frontpage_DefaultViewModel(object instance)
         {
             var that = (global::RestaurantAppVersion4.Frontpage)instance;
             return that.DefaultViewModel;
         }
-        private object get_22_Frontpage_NavigationHelper(object instance)
+        private object get_21_Frontpage_NavigationHelper(object instance)
         {
             var that = (global::RestaurantAppVersion4.Frontpage)instance;
             return that.NavigationHelper;
         }
-        private object get_23_ItemDetailPage1_DefaultViewModel(object instance)
+        private object get_22_ItemDetailPage1_DefaultViewModel(object instance)
         {
             var that = (global::RestaurantAppVersion4.View.ItemDetailPage1)instance;
             return that.DefaultViewModel;
         }
-        private object get_24_ItemDetailPage1_NavigationHelper(object instance)
+        private object get_23_ItemDetailPage1_NavigationHelper(object instance)
         {
             var that = (global::RestaurantAppVersion4.View.ItemDetailPage1)instance;
             return that.NavigationHelper;
@@ -718,130 +678,124 @@ namespace RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo
                 xamlMember.Getter = get_3_Color_R;
                 xamlMember.Setter = set_3_Color_R;
                 break;
+            case "RestaurantAppVersion4.ViewModel.MainViewModel.SaveCommand":
+                userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.ViewModel.MainViewModel");
+                xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "SaveCommand", "System.Windows.Input.ICommand");
+                xamlMember.Getter = get_4_MainViewModel_SaveCommand;
+                xamlMember.Setter = set_4_MainViewModel_SaveCommand;
+                break;
+            case "RestaurantAppVersion4.ViewModel.MainViewModel.LoadCommand":
+                userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.ViewModel.MainViewModel");
+                xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "LoadCommand", "System.Windows.Input.ICommand");
+                xamlMember.Getter = get_5_MainViewModel_LoadCommand;
+                xamlMember.Setter = set_5_MainViewModel_LoadCommand;
+                break;
             case "RestaurantAppVersion4.ViewModel.MainViewModel.SelectedResaurant":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.ViewModel.MainViewModel");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "SelectedResaurant", "RestaurantAppVersion4.Model.RestaurantModel");
-                xamlMember.Getter = get_4_MainViewModel_SelectedResaurant;
-                xamlMember.Setter = set_4_MainViewModel_SelectedResaurant;
+                xamlMember.Getter = get_6_MainViewModel_SelectedResaurant;
+                xamlMember.Setter = set_6_MainViewModel_SelectedResaurant;
                 break;
             case "RestaurantAppVersion4.ViewModel.MainViewModel.SelectedKategori":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.ViewModel.MainViewModel");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "SelectedKategori", "RestaurantAppVersion4.Model.KategoriModel");
-                xamlMember.Getter = get_5_MainViewModel_SelectedKategori;
-                xamlMember.Setter = set_5_MainViewModel_SelectedKategori;
+                xamlMember.Getter = get_7_MainViewModel_SelectedKategori;
+                xamlMember.Setter = set_7_MainViewModel_SelectedKategori;
                 break;
             case "RestaurantAppVersion4.ViewModel.MainViewModel.Restaurants":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.ViewModel.MainViewModel");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "Restaurants", "System.Collections.ObjectModel.ObservableCollection`1<RestaurantAppVersion4.Model.RestaurantModel>");
-                xamlMember.Getter = get_6_MainViewModel_Restaurants;
-                xamlMember.Setter = set_6_MainViewModel_Restaurants;
-                break;
-            case "RestaurantAppVersion4.Model.RestaurantModel.KommentarKatalog":
-                userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.Model.RestaurantModel");
-                xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "KommentarKatalog", "System.Collections.ObjectModel.ObservableCollection`1<RestaurantAppVersion4.Model.KommentarModel>");
-                xamlMember.Getter = get_7_RestaurantModel_KommentarKatalog;
-                xamlMember.Setter = set_7_RestaurantModel_KommentarKatalog;
-                break;
-            case "RestaurantAppVersion4.Model.KommentarModel.ComText":
-                userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.Model.KommentarModel");
-                xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "ComText", "String");
-                xamlMember.Getter = get_8_KommentarModel_ComText;
-                xamlMember.Setter = set_8_KommentarModel_ComText;
-                break;
-            case "RestaurantAppVersion4.Model.KommentarModel.ComRating":
-                userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.Model.KommentarModel");
-                xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "ComRating", "Int32");
-                xamlMember.Getter = get_9_KommentarModel_ComRating;
-                xamlMember.Setter = set_9_KommentarModel_ComRating;
+                xamlMember.Getter = get_8_MainViewModel_Restaurants;
+                xamlMember.Setter = set_8_MainViewModel_Restaurants;
                 break;
             case "RestaurantAppVersion4.Model.RestaurantModel.SelectedKommentar":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.Model.RestaurantModel");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "SelectedKommentar", "RestaurantAppVersion4.Model.KommentarModel");
-                xamlMember.Getter = get_10_RestaurantModel_SelectedKommentar;
-                xamlMember.Setter = set_10_RestaurantModel_SelectedKommentar;
+                xamlMember.Getter = get_9_RestaurantModel_SelectedKommentar;
+                xamlMember.Setter = set_9_RestaurantModel_SelectedKommentar;
                 break;
             case "RestaurantAppVersion4.Model.RestaurantModel.Name":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.Model.RestaurantModel");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_11_RestaurantModel_Name;
-                xamlMember.Setter = set_11_RestaurantModel_Name;
+                xamlMember.Getter = get_10_RestaurantModel_Name;
+                xamlMember.Setter = set_10_RestaurantModel_Name;
                 break;
             case "RestaurantAppVersion4.Model.RestaurantModel.PriceClass":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.Model.RestaurantModel");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "PriceClass", "String");
-                xamlMember.Getter = get_12_RestaurantModel_PriceClass;
-                xamlMember.Setter = set_12_RestaurantModel_PriceClass;
+                xamlMember.Getter = get_11_RestaurantModel_PriceClass;
+                xamlMember.Setter = set_11_RestaurantModel_PriceClass;
                 break;
             case "RestaurantAppVersion4.Model.RestaurantModel.Adress":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.Model.RestaurantModel");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "Adress", "String");
-                xamlMember.Getter = get_13_RestaurantModel_Adress;
-                xamlMember.Setter = set_13_RestaurantModel_Adress;
+                xamlMember.Getter = get_12_RestaurantModel_Adress;
+                xamlMember.Setter = set_12_RestaurantModel_Adress;
                 break;
             case "RestaurantAppVersion4.Model.RestaurantModel.OpenHours":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.Model.RestaurantModel");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "OpenHours", "String");
-                xamlMember.Getter = get_14_RestaurantModel_OpenHours;
-                xamlMember.Setter = set_14_RestaurantModel_OpenHours;
+                xamlMember.Getter = get_13_RestaurantModel_OpenHours;
+                xamlMember.Setter = set_13_RestaurantModel_OpenHours;
                 break;
             case "RestaurantAppVersion4.Model.RestaurantModel.Contact":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.Model.RestaurantModel");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "Contact", "String");
-                xamlMember.Getter = get_15_RestaurantModel_Contact;
-                xamlMember.Setter = set_15_RestaurantModel_Contact;
+                xamlMember.Getter = get_14_RestaurantModel_Contact;
+                xamlMember.Setter = set_14_RestaurantModel_Contact;
                 break;
             case "RestaurantAppVersion4.Model.RestaurantModel.ImageURL":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.Model.RestaurantModel");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "ImageURL", "String");
-                xamlMember.Getter = get_16_RestaurantModel_ImageURL;
-                xamlMember.Setter = set_16_RestaurantModel_ImageURL;
+                xamlMember.Getter = get_15_RestaurantModel_ImageURL;
+                xamlMember.Setter = set_15_RestaurantModel_ImageURL;
                 break;
             case "RestaurantAppVersion4.ViewModel.MainViewModel.Kategorier":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.ViewModel.MainViewModel");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "Kategorier", "System.Collections.ObjectModel.ObservableCollection`1<RestaurantAppVersion4.Model.KategoriModel>");
-                xamlMember.Getter = get_17_MainViewModel_Kategorier;
-                xamlMember.Setter = set_17_MainViewModel_Kategorier;
+                xamlMember.Getter = get_16_MainViewModel_Kategorier;
+                xamlMember.Setter = set_16_MainViewModel_Kategorier;
                 break;
             case "RestaurantAppVersion4.Model.KategoriModel.Name":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.Model.KategoriModel");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_18_KategoriModel_Name;
-                xamlMember.Setter = set_18_KategoriModel_Name;
+                xamlMember.Getter = get_17_KategoriModel_Name;
+                xamlMember.Setter = set_17_KategoriModel_Name;
                 break;
             case "RestaurantAppVersion4.Model.KategoriModel.Restaurants":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.Model.KategoriModel");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "Restaurants", "System.Collections.Generic.List`1<RestaurantAppVersion4.Model.RestaurantModel>");
-                xamlMember.Getter = get_19_KategoriModel_Restaurants;
-                xamlMember.Setter = set_19_KategoriModel_Restaurants;
+                xamlMember.Getter = get_18_KategoriModel_Restaurants;
+                xamlMember.Setter = set_18_KategoriModel_Restaurants;
                 break;
             case "RestaurantAppVersion4.Model.KategoriModel.ImageUrl":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.Model.KategoriModel");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "ImageUrl", "String");
-                xamlMember.Getter = get_20_KategoriModel_ImageUrl;
-                xamlMember.Setter = set_20_KategoriModel_ImageUrl;
+                xamlMember.Getter = get_19_KategoriModel_ImageUrl;
+                xamlMember.Setter = set_19_KategoriModel_ImageUrl;
                 break;
             case "RestaurantAppVersion4.Frontpage.DefaultViewModel":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.Frontpage");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "RestaurantAppVersion4.Common.ObservableDictionary");
-                xamlMember.Getter = get_21_Frontpage_DefaultViewModel;
+                xamlMember.Getter = get_20_Frontpage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "RestaurantAppVersion4.Frontpage.NavigationHelper":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.Frontpage");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "NavigationHelper", "RestaurantAppVersion4.Common.NavigationHelper");
-                xamlMember.Getter = get_22_Frontpage_NavigationHelper;
+                xamlMember.Getter = get_21_Frontpage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "RestaurantAppVersion4.View.ItemDetailPage1.DefaultViewModel":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.View.ItemDetailPage1");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "RestaurantAppVersion4.Common.ObservableDictionary");
-                xamlMember.Getter = get_23_ItemDetailPage1_DefaultViewModel;
+                xamlMember.Getter = get_22_ItemDetailPage1_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "RestaurantAppVersion4.View.ItemDetailPage1.NavigationHelper":
                 userType = (global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RestaurantAppVersion4.View.ItemDetailPage1");
                 xamlMember = new global::RestaurantAppVersion4.RestaurantAppVersion4_XamlTypeInfo.XamlMember(this, "NavigationHelper", "RestaurantAppVersion4.Common.NavigationHelper");
-                xamlMember.Getter = get_24_ItemDetailPage1_NavigationHelper;
+                xamlMember.Getter = get_23_ItemDetailPage1_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             }

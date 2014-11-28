@@ -20,10 +20,10 @@ namespace RestaurantAppVersion4.Model
         private string _openHours;
         private string _contact;
         private string _ImageUrl;
-        private ObservableCollection<KommentarModel> _kommentarKatalog;
+        private static ObservableCollection<KommentarModel> _kommentarKatalog;
         private KommentarModel _selectedKommentar;
 
-        public ObservableCollection<KommentarModel> KommentarKatalog
+        public static ObservableCollection<KommentarModel> KommentarKatalog
         {
             get { return _kommentarKatalog; }
             set { _kommentarKatalog = value; }

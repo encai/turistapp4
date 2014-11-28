@@ -11,18 +11,26 @@ namespace RestaurantAppVersion4.ViewModel
     class OpretKommentarHandler
     {
         private string _comText;
-        private ObservableCollection<KommentarModel> _kommentars;
+  
+        public static async void SavePersonsAsync()
+        {
+            PersistenceFacade.SavePersonsAsJsonAsync(RestaurantModel.KommentarKatalog);
+        }
 
+        public static async void LoadPersonsAsync()
+        {
+            List<KommentarModel> kommentars = await PersistenceFacade.LoadPersonsFromJsonAsync();
+            RestaurantModel.KommentarKatalog.Clear();
+            foreach (var kommentar in kommentars)
+            {
+                RestaurantModel.KommentarKatalog.Add(kommentar);
+            }
+        }
+        
         public string ComText
         {
             get { return _comText; }
             set { _comText = value; }
         }
-
-        public OpretKommentarHandler(ObservableCollection<KommentarModel> kommentars)
-        {
-            _kommentars = kommentars;
-        }
-
     }
 }

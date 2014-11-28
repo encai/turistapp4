@@ -15,6 +15,8 @@
     <RootPropertyPathName Name="SelectedKategori" />
     <RootPropertyPathName Name="Restaurants" />
     <RootPropertyPathName Name="Kategorier" />
+    <RootPropertyPathName Name="SaveCommand" />
+    <RootPropertyPathName Name="LoadCommand" />
     <RootPropertyPathName Name="Title" />
     <RootPropertyPathName Name="NavigationHelper" />
     <RootPropertyPathName Name="GoBackCommand" />
@@ -25,6 +27,7 @@
       <RootProperty Name="DataContext" />
       <RootProperty Name="Resources" />
       <RootProperty Name="Content" />
+      <RootProperty Name="BottomAppBar" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="RelativeSource" />
@@ -258,6 +261,22 @@
       <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="RestaurantAppVersion4.Frontpage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBar">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Label" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="DataContext" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
@@ -265,14 +284,6 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Slider">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Maximum" />
-      <RootProperty Name="Minimum" />
     </RootType>
     <RootType FullName="RestaurantAppVersion4.View.ItemDetailPage1" />
   </Roots.RootTypes>

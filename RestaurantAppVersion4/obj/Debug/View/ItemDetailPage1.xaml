@@ -21,10 +21,18 @@
 					<ColumnDefinition/>
 				</Grid.ColumnDefinitions>
 				<StackPanel Orientation="Horizontal">
-					<AppBarButton HorizontalAlignment="Stretch" Icon="Download" Label="Indlæs" VerticalAlignment="Stretch"/>
+					<AppBarButton HorizontalAlignment="Stretch" Icon="Download" Label="Indlæs" VerticalAlignment="Stretch" Command="{Binding LoadCommand}">
+						<AppBarButton.DataContext>
+							<ViewModel:MainViewModel/>
+						</AppBarButton.DataContext>
+					</AppBarButton>
 				</StackPanel>
 				<StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal">
-					<AppBarButton HorizontalAlignment="Stretch" Icon="Save" Label="Gem" VerticalAlignment="Stretch"/>
+					<AppBarButton HorizontalAlignment="Stretch" Icon="Save" Label="Gem" VerticalAlignment="Stretch" Command="{Binding SaveCommand}">
+						<AppBarButton.DataContext>
+							<ViewModel:MainViewModel/>
+						</AppBarButton.DataContext>
+					</AppBarButton>
 				</StackPanel>
 			</Grid>
 		</AppBar>
