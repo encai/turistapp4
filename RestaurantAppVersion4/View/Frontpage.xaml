@@ -105,7 +105,15 @@
 
         <!-- Back button and page title -->
         <TextBlock HorizontalAlignment="Left" Margin="35,5,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Kategori" VerticalAlignment="Top" Height="75" Width="200" FontSize="48" SelectionChanged="TextBlock_SelectionChanged"/>
-        <ListView Height="160" Margin="35,80,10,0" Grid.Row="1" VerticalAlignment="Top" ItemsSource="{Binding Kategorier, Mode=TwoWay}" SelectedItem="{Binding SelectedKategori, Mode=TwoWay}" ItemContainerStyle="{StaticResource ListViewItemStyle1}" DataFetchSize="3"/>
+        <ListView Height="160" Margin="35,80,10,0" Grid.Row="1" VerticalAlignment="Top" ItemsSource="{Binding Kategorier, Mode=TwoWay}" SelectedItem="{Binding SelectedKategori, Mode=TwoWay}" ItemContainerStyle="{StaticResource ListViewItemStyle1}" DataFetchSize="3">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Image Source="{Binding ImageUrl}" Width="50" HorizontalAlignment="Left"/><TextBlock Text="{Binding Name}" Margin="50,0,0,0" HorizontalAlignment="Left" />
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
         <ListView HorizontalAlignment="Left" Height="260" Margin="35,300,0,0" Grid.Row="1" VerticalAlignment="Top" Width="190" ItemsSource="{Binding SelectedKategori.Restaurants}" SelectedItem="{Binding SelectedResaurant, Mode=TwoWay}"/>
         <TextBlock HorizontalAlignment="Left" Height="55" Margin="35,245,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Restauranter" VerticalAlignment="Top" Width="290" FontSize="48"/>
         <TextBlock HorizontalAlignment="Left" Margin="25,344,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding SelectedResaurant.Name, Mode=TwoWay, UpdateSourceTrigger=Default}" VerticalAlignment="Top" FontSize="36" FontFamily="Gungsuh" Foreground="White" FontWeight="Bold" Grid.Column="1"/>
