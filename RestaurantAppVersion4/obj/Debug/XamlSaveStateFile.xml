@@ -1,6 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\rasmus1\documents\github\turistapp4\restaurantappversion4\obj\debug\intermediatexaml\restaurantappversion4.exe" HashGuid="e2c30ac8-7554-e12a-8414-193756899533" />
-    <ReferenceAssembly PathName="c:\users\pc\desktop\turistapp4\packages\newtonsoft.json.6.0.6\lib\netcore45\newtonsoft.json.dll" HashGuid="63116148-54c9-33e9-c28b-753c429e654f" />
+    <LocalAssembly PathName="c:\users\rasmus1\documents\github\turistapp4\restaurantappversion4\obj\debug\intermediatexaml\restaurantappversion4.exe" HashGuid="6439d084-1414-d4c3-b8ee-5bea9b31757d" />
+    <ReferenceAssembly PathName="c:\users\rasmus1\documents\github\turistapp4\packages\newtonsoft.json.6.0.6\lib\netcore45\newtonsoft.json.dll" HashGuid="63116148-54c9-33e9-c28b-753c429e654f" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>
