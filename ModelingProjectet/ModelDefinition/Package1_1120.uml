@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="78fec34a-07c6-444f-9ac6-ba41d2d3aff9"
+  name="ViewModel" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="8da2e80d-a7f8-46eb-9c25-3132929c62a3"
+        name="CommentHandler"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="642267b9-a4ac-40db-a324-68c90573aa51"
+            isDerived="false"
+            sourceEndRoleName="CommentHandler"
+            targetEndRoleName="ItemDetailPage1.xaml"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="b7728c39-e37a-46fd-8fa2-e38f84bc99c6"
+              LastKnownName="ItemDetailPage1.xaml"
+              LastKnownLocation="Package_1120.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5a24879a-249a-44d5-9c15-4ca6d699389a"
+                  name="CommentHandler"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="47055a9b-d592-4748-b7ac-36c57f5f48e2"
+                  name="ItemDetailPage1.xaml"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="2844b624-5c32-41fa-8ac8-0e4be2ad5cb6"
+            name="ObservableCollection&lt;Comment&gt; _comments"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="f9907ddf-ae22-4ebc-9400-0b8224a8db88"
+            name="com_rating"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="d982d9ee-6d02-43e1-951d-e4b82c0389c2"
+                LastKnownName="int"
+                LastKnownLocation="ModelingProjectet.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="23c78964-38c4-433d-b007-c1001a9aef18"
+            name="com_text"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="656fb224-4291-4312-b0e5-f412113b8029"
+                LastKnownName="string"
+                LastKnownLocation="ModelingProjectet.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bbd9cfbb-1290-4d3c-a33c-67eae91ea9da"
+        name="MainViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="b9445d76-66f9-49eb-8e1c-21a9cabe6607"
+            isDerived="false"
+            sourceEndRoleName="MainViewModel"
+            targetEndRoleName="Frontpage.xaml"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f2ea14db-eb35-439f-9b57-c50e4670f1a3"
+              LastKnownName="Frontpage.xaml"
+              LastKnownLocation="Package_1120.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f1719928-99e8-4f5a-bec2-be4619409a4c"
+                  name="MainViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1512f814-f1e4-4088-aaaf-30421abcd1c2"
+                  name="Frontpage.xaml"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3c61a601-c2dd-4c4c-aa91-4df9d0dca094"
+            isDerived="false"
+            sourceEndRoleName="MainViewModel"
+            targetEndRoleName="ItemDetailPage1.xaml"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="b7728c39-e37a-46fd-8fa2-e38f84bc99c6"
+              LastKnownName="ItemDetailPage1.xaml"
+              LastKnownLocation="Package_1120.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4342b398-f1ad-4b2e-a522-b217747b78bf"
+                  name="MainViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="eb36d37e-c439-40af-905a-925da1e94b76"
+                  name="ItemDetailPage1.xaml"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="18362f67-3464-40bf-895c-c088d862ba9f"
+            name="ObservableCollection&lt;RestaurantModel&gt; _restaurants;"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="410a5bc5-2f24-4d7b-9def-0dc51199694c"
+            name="ObservableCollection&lt;KategoriModel&gt; _kategorier;"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="19e46d9d-7123-48b1-a245-a7110dede496"
+            name="RestaurantModel _selectedResaurant;"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="abfbfe93-7cdc-4317-8553-6cd4f5713b04"
+            name="KategoriModel _selectedKategori;"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
