@@ -1,0 +1,1394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="1331c540-a183-4a8d-bc98-a9272bbc67d4"
+  name="ModelingProject" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="9d0282f5-0ef4-4575-8cc7-09ccc99cfae1"
+        name="string" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="54fc20d4-be68-463d-8397-dd05438bd8bc"
+        name="Restaurant"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="e73885e7-dfb1-4aee-ac9d-8c6d7cbe28b0"
+            isDerived="false"
+            sourceEndRoleName="Restaurant"
+            targetEndRoleName="Menu"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="84e51668-08af-4da0-a5af-ab1dfecaa972"
+              LastKnownName="Menu"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c61ef97b-383b-4bab-b687-6b25ed868426"
+                  name="Restaurant"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="14ab4b24-8f02-4597-8674-0e9f9e57e2e7"
+                  name="Menu"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="2ece3794-34a6-4547-bb91-3c1549c92359"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="8782b06b-59c7-49f1-9408-b667bb59df21"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="bc34981d-69c4-496e-bce2-517e27678518"
+            isDerived="false"
+            sourceEndRoleName="Restaurant"
+            targetEndRoleName="Category"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c9441f29-a464-4c50-9378-c1ebd509b450"
+              LastKnownName="Category"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3e16c528-41b8-4b9b-a27d-d2ba05652bd6"
+                  name="Restaurant"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c98be107-fc48-491a-b6e0-23727c51408b"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="9de1f955-29ad-43dd-991b-f20a930acc50"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2a2a39f1-b2fb-489d-88cf-46351203cd74"
+                  name="Category"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c69276ed-1647-4087-a255-706716e17d7a"
+            isDerived="false"
+            sourceEndRoleName="Restaurant"
+            targetEndRoleName="Comment"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="331cb54e-a9cf-4365-a135-1ab81c16f2a9"
+              LastKnownName="Comment"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="64794895-d7aa-44ad-ad44-9bd6a1cd8ed0"
+                  name="Restaurant"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8148bb35-6ff4-43b2-aac1-4e3fbebf921c"
+                  name="Comment"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f9e55680-168c-436b-a526-eeccba0fb194"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d6b32e06-d925-4042-adc6-3cba8c8887ab"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="6776548b-8008-46f2-8285-7765afaa8bd2"
+            name="ResName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="64a18fc1-f67e-47ed-8689-891abed9c88b"
+            name="Resphone"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="1d379dd2-784d-479e-82fb-221065b41dcb"
+            name="ResMail"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="44785f38-68fb-425f-93b0-aa4e6a8deece"
+            name="ResOpenHoursWeekEnd"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="9d0282f5-0ef4-4575-8cc7-09ccc99cfae1"
+                LastKnownName="string"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="feac58ec-7665-43fa-baf3-25550b90a64e"
+            name="ResOpenHoursWeekDays"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="9d0282f5-0ef4-4575-8cc7-09ccc99cfae1"
+                LastKnownName="string"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3c12e84d-93e3-4e98-bdd2-3b919cf6480e"
+            name="ResImage"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="3f22a6ab-4831-4762-8bcb-86e4528e447f"
+            name="ResAddress"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="84e51668-08af-4da0-a5af-ab1dfecaa972"
+        name="Menu"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="6054f1b0-8a8a-4aa6-bbf6-f1a9b20dfe74"
+            name="MenuName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="0e8d0aea-295e-4787-8292-3693eafe4c08"
+            name="MenuPrice"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="3355737f-ca0e-454f-8967-2cc2ae1a2770"
+            name="MenuInfo"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="67d8d74e-553b-4fe1-bcfd-4d3dd5577669"
+            name="MenuImage"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c9441f29-a464-4c50-9378-c1ebd509b450"
+        name="Category"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="f5687fca-d9b5-42b4-8d1f-fd8870ded4f4"
+            name="CatName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="f98a6d48-5d3f-4974-8881-bb6b66ff7cf7"
+            name="CatImg"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="331cb54e-a9cf-4365-a135-1ab81c16f2a9"
+        name="Comment"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="dc72db02-04f5-4229-9e2b-81028099849d"
+            name="ComRating"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="e5a14265-d18a-47dc-b3b9-a69963293143"
+            name="ComText"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="2b9b4ae0-f5f5-4327-acae-cb1776b56fe9"
+        name="SequenceDiagram"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="49d2be40-1699-4834-9904-b036ec7e212a"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="a4226632-c351-48eb-a4a4-81b88ae4c2a2"
+                LastKnownName="CommentHandler"
+                LastKnownLocation="ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="34475d14-3fc2-4d26-89e0-3078099da481"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="bcb1c47c-eacf-4df2-a694-f51a14a1b62b"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="176ba47d-acd7-4231-aa0b-69e8c1e96faf"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f0f8a130-e1ec-4d8e-9479-36ee44597e08"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="23beabac-a29b-4465-9152-5c07ce257a9c"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b9145c99-27fd-4201-8e03-5f4d24537ae9"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ee79b4e4-49de-43f3-adcc-5997a330ee84"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="01f66237-2b52-4a32-8792-b38b7aaaceb0"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="bcb1c47c-eacf-4df2-a694-f51a14a1b62b"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5e645fad-db73-44be-a4e1-aefc0cb6dcb6"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="a4226632-c351-48eb-a4a4-81b88ae4c2a2"
+                LastKnownName="CommentHandler"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="176ba47d-acd7-4231-aa0b-69e8c1e96faf"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="a4226632-c351-48eb-a4a4-81b88ae4c2a2"
+                LastKnownName="CommentHandler"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0761caf8-a099-4b5a-b386-c569eef1fd0e"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="a36f76ac-11bb-4363-9df5-3fe7d6effc8f"
+                LastKnownName="Aktør"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="8a20d332-b195-4794-8c60-279eff637a08"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="fb6e117d-7b3a-4e88-af30-393886b2a732"
+                LastKnownName="MainViewModel"
+                LastKnownLocation="ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="43504308-1479-4de6-83f3-b96565cc5e85"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="ff3d1236-ee42-4621-a0ff-405f457d6cc2"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="ec0712d8-da74-4302-be15-8298cae723a5"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9017ceab-2d3e-4151-ae17-5569f1c76407"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="a480b782-8800-4c0d-be21-6ed871f43183"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="cd772916-43b4-4005-86ad-a87908e25f95"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="ff3d1236-ee42-4621-a0ff-405f457d6cc2"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="098ce95e-f5c2-4af7-91e1-d6b3feee4e99"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fb6e117d-7b3a-4e88-af30-393886b2a732"
+                LastKnownName="MainViewModel"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ec0712d8-da74-4302-be15-8298cae723a5"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="fb6e117d-7b3a-4e88-af30-393886b2a732"
+                LastKnownName="MainViewModel"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f0f8a130-e1ec-4d8e-9479-36ee44597e08"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="a4226632-c351-48eb-a4a4-81b88ae4c2a2"
+                LastKnownName="CommentHandler"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="e9e623d4-4864-4cf9-b820-c22521e083d1"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="08b6ec58-47d9-41b9-a240-f7167e09c178"
+                LastKnownName="Restaurant"
+                LastKnownLocation="ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="b06c47f7-8187-4ced-9d30-1defc36d1f84"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="c0eef39d-a8c1-4287-9542-fa17d486a542"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="e398daa7-6c28-45af-a3e5-166199117b2e"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="fed31c8d-9f83-4fe0-a058-b8574141e957"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="c0eef39d-a8c1-4287-9542-fa17d486a542"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="3d3f3898-531e-459d-baf1-95fa0c9f1b57"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="08b6ec58-47d9-41b9-a240-f7167e09c178"
+                LastKnownName="Restaurant"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e398daa7-6c28-45af-a3e5-166199117b2e"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="08b6ec58-47d9-41b9-a240-f7167e09c178"
+                LastKnownName="Restaurant"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9017ceab-2d3e-4151-ae17-5569f1c76407"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="fb6e117d-7b3a-4e88-af30-393886b2a732"
+                LastKnownName="MainViewModel"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="fed31c8d-9f83-4fe0-a058-b8574141e957"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="08b6ec58-47d9-41b9-a240-f7167e09c178"
+                LastKnownName="Restaurant"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a480b782-8800-4c0d-be21-6ed871f43183"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="fb6e117d-7b3a-4e88-af30-393886b2a732"
+                LastKnownName="MainViewModel"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="b06c47f7-8187-4ced-9d30-1defc36d1f84"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="9cff300c-7479-4f9a-98a6-5d04dcebb90c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="08b6ec58-47d9-41b9-a240-f7167e09c178"
+                LastKnownName="Restaurant"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="23beabac-a29b-4465-9152-5c07ce257a9c"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="a4226632-c351-48eb-a4a4-81b88ae4c2a2"
+                LastKnownName="CommentHandler"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="cd772916-43b4-4005-86ad-a87908e25f95"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="fb6e117d-7b3a-4e88-af30-393886b2a732"
+                LastKnownName="MainViewModel"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="43504308-1479-4de6-83f3-b96565cc5e85"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="65dada8f-ed94-4b9c-9238-9289a3007504"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fb6e117d-7b3a-4e88-af30-393886b2a732"
+                LastKnownName="MainViewModel"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="f281c8f6-f172-48be-a415-159bb6cc7ddf"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="08b6ec58-47d9-41b9-a240-f7167e09c178"
+                LastKnownName="Restaurant"
+                LastKnownLocation="ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="fa7d35f4-200e-4804-8fa1-297112e7dbce"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="9f2cab14-680c-481e-9906-a1c4d1966530"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="6117806f-855e-4576-b8b3-8ef51429e59f"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="cba026f9-bd7a-4014-a103-9695b0aac3f5"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8f9e647a-6029-4053-8b4b-35e36cabecd8"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="558f017a-6e5b-48e5-9759-58a11b023dcf"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="9f2cab14-680c-481e-9906-a1c4d1966530"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="767e94b0-4d04-4237-a4f0-230a9054f6ed"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="08b6ec58-47d9-41b9-a240-f7167e09c178"
+                LastKnownName="Restaurant"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b9145c99-27fd-4201-8e03-5f4d24537ae9"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="a4226632-c351-48eb-a4a4-81b88ae4c2a2"
+                LastKnownName="CommentHandler"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6117806f-855e-4576-b8b3-8ef51429e59f"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="08b6ec58-47d9-41b9-a240-f7167e09c178"
+                LastKnownName="Restaurant"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="1e856acf-e82c-4a44-b5c7-130a0401a320"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="4de23fe5-7885-43c7-b192-b15ffdd733d5"
+                LastKnownName="Kommentar(com_text, com_rating)"
+                LastKnownLocation="ModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="aa9621fa-69df-422c-a221-a21a53be6890"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="ModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="7d53e40f-1c4c-4573-8da6-88895002c1fc"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="ModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="ba9ab612-f34e-417d-84e3-f1119b264a9e"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="2346f8e9-dd42-4d62-9ad8-204ed014b443"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="ModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="7d53e40f-1c4c-4573-8da6-88895002c1fc"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="6aca5e74-017e-4754-a3c9-5cc57afe2ec2"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="4de23fe5-7885-43c7-b192-b15ffdd733d5"
+                LastKnownName="Kommentar(com_text, com_rating)"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="cba026f9-bd7a-4014-a103-9695b0aac3f5"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="08b6ec58-47d9-41b9-a240-f7167e09c178"
+                LastKnownName="Restaurant"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ba9ab612-f34e-417d-84e3-f1119b264a9e"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="4de23fe5-7885-43c7-b192-b15ffdd733d5"
+                LastKnownName="Kommentar(com_text, com_rating)"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2346f8e9-dd42-4d62-9ad8-204ed014b443"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="4de23fe5-7885-43c7-b192-b15ffdd733d5"
+                LastKnownName="Kommentar(com_text, com_rating)"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8f9e647a-6029-4053-8b4b-35e36cabecd8"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="08b6ec58-47d9-41b9-a240-f7167e09c178"
+                LastKnownName="Restaurant"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="aa9621fa-69df-422c-a221-a21a53be6890"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="14fcb587-8977-4481-96ec-974215444cc4"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="4de23fe5-7885-43c7-b192-b15ffdd733d5"
+                LastKnownName="Kommentar(com_text, com_rating)"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="558f017a-6e5b-48e5-9759-58a11b023dcf"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="08b6ec58-47d9-41b9-a240-f7167e09c178"
+                LastKnownName="Restaurant"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ee79b4e4-49de-43f3-adcc-5997a330ee84"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="a4226632-c351-48eb-a4a4-81b88ae4c2a2"
+                LastKnownName="CommentHandler"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="fa7d35f4-200e-4804-8fa1-297112e7dbce"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d294dbab-90e3-4909-9d61-b2542cbefdff"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="08b6ec58-47d9-41b9-a240-f7167e09c178"
+                LastKnownName="Restaurant"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="01f66237-2b52-4a32-8792-b38b7aaaceb0"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="a4226632-c351-48eb-a4a4-81b88ae4c2a2"
+                LastKnownName="CommentHandler"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4819e670-7152-4bd2-b7b3-ce59fcd8c5ff"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="a36f76ac-11bb-4363-9df5-3fe7d6effc8f"
+                LastKnownName="Aktør"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="34475d14-3fc2-4d26-89e0-3078099da481"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="669daea3-b318-4f71-9452-ec9f356eadf7"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="a4226632-c351-48eb-a4a4-81b88ae4c2a2"
+                LastKnownName="CommentHandler"
+                LastKnownLocation="ModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="a36f76ac-11bb-4363-9df5-3fe7d6effc8f"
+            name="Aktør"
+            isActor="false"
+            lifelineDisplayName="Aktør">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="0761caf8-a099-4b5a-b386-c569eef1fd0e"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="ModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="4819e670-7152-4bd2-b7b3-ce59fcd8c5ff"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="ModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="a4226632-c351-48eb-a4a4-81b88ae4c2a2"
+            name="CommentHandler"
+            isActor="false"
+            lifelineDisplayName="CommentHandler">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="bcb1c47c-eacf-4df2-a694-f51a14a1b62b"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="34475d14-3fc2-4d26-89e0-3078099da481"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="ModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="fb6e117d-7b3a-4e88-af30-393886b2a732"
+            name="MainViewModel"
+            isActor="false"
+            lifelineDisplayName="MainViewModel">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="ff3d1236-ee42-4621-a0ff-405f457d6cc2"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="43504308-1479-4de6-83f3-b96565cc5e85"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="ModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="08b6ec58-47d9-41b9-a240-f7167e09c178"
+            name="Restaurant"
+            isActor="false"
+            lifelineDisplayName="Restaurant">
+            <represents>
+              <propertyMoniker
+                Id="27d8a960-97ee-4496-ad38-63743df73de7"
+                LastKnownLocation="ModelingProject.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="c0eef39d-a8c1-4287-9542-fa17d486a542"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b06c47f7-8187-4ced-9d30-1defc36d1f84"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="9f2cab14-680c-481e-9906-a1c4d1966530"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="fa7d35f4-200e-4804-8fa1-297112e7dbce"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="ModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="4de23fe5-7885-43c7-b192-b15ffdd733d5"
+            name="Kommentar(com_text, com_rating)"
+            isActor="false"
+            lifelineDisplayName="Kommentar(com_text, com_rating)">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="7d53e40f-1c4c-4573-8da6-88895002c1fc"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="ModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="aa9621fa-69df-422c-a221-a21a53be6890"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="ModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="fd30d141-b218-450f-bfb8-d6bd4aab48ac"
+            name="AddComment"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0761caf8-a099-4b5a-b386-c569eef1fd0e"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="176ba47d-acd7-4231-aa0b-69e8c1e96faf"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="48ab0b6e-6ad7-4515-81a6-f26200b95eed"
+            name="SelectedRestaurant"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f0f8a130-e1ec-4d8e-9479-36ee44597e08"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ec0712d8-da74-4302-be15-8298cae723a5"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="17d09173-71d4-4f2d-8c6e-d08245900a09"
+            name="BinderTilRestaurant"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9017ceab-2d3e-4151-ae17-5569f1c76407"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e398daa7-6c28-45af-a3e5-166199117b2e"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="943d8553-b1b3-42f3-aa5c-cfa53187dfdb"
+            name="&lt;&lt;restaurant&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="fed31c8d-9f83-4fe0-a058-b8574141e957"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a480b782-8800-4c0d-be21-6ed871f43183"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="f544f796-bb38-4ab0-8baa-4d381f011796"
+            name="&lt;&lt;restaurant&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="cd772916-43b4-4005-86ad-a87908e25f95"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="23beabac-a29b-4465-9152-5c07ce257a9c"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="bee75571-fc6c-45ae-8d9b-c3ada90c36eb"
+            name="AddComment(com_text, com_rating)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b9145c99-27fd-4201-8e03-5f4d24537ae9"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6117806f-855e-4576-b8b3-8ef51429e59f"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e71aba22-c5a4-4897-bb52-fb5b80a503d7"
+            name="&lt;&lt;create&gt;&gt;"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="cba026f9-bd7a-4014-a103-9695b0aac3f5"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ba9ab612-f34e-417d-84e3-f1119b264a9e"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3da6b34e-9cde-4605-b174-76c6f95a412e"
+            name="&lt;&lt;return text &amp; rating&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2346f8e9-dd42-4d62-9ad8-204ed014b443"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8f9e647a-6029-4053-8b4b-35e36cabecd8"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="7209d9b0-79c6-47c0-bb2c-1821d4dbf032"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="558f017a-6e5b-48e5-9759-58a11b023dcf"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ee79b4e4-49de-43f3-adcc-5997a330ee84"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="84ea3309-a1d1-4315-8881-90278738d30c"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="01f66237-2b52-4a32-8792-b38b7aaaceb0"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="ModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4819e670-7152-4bd2-b7b3-ce59fcd8c5ff"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="ModelingProject.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="27d8a960-97ee-4496-ad38-63743df73de7"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="54fc20d4-be68-463d-8397-dd05438bd8bc"
+                LastKnownName="Restaurant"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5e645fad-db73-44be-a4e1-aefc0cb6dcb6"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="669daea3-b318-4f71-9452-ec9f356eadf7"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="098ce95e-f5c2-4af7-91e1-d6b3feee4e99"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="65dada8f-ed94-4b9c-9238-9289a3007504"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="3d3f3898-531e-459d-baf1-95fa0c9f1b57"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="9cff300c-7479-4f9a-98a6-5d04dcebb90c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="6aca5e74-017e-4754-a3c9-5cc57afe2ec2"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="14fcb587-8977-4481-96ec-974215444cc4"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="767e94b0-4d04-4237-a4f0-230a9054f6ed"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d294dbab-90e3-4909-9d61-b2542cbefdff"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="317bed7e-1d5d-4d5a-8e7b-3efd4117cb39"
+        name="int" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="435d7e07-2a20-4fae-aa4f-fd6970868439"
+        LastKnownName="View"
+        LastKnownLocation="Package_1224.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="55527167-e75d-4944-a178-e8f17ed4a91c"
+        LastKnownName="ViewModel"
+        LastKnownLocation="Package1_1224.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="09c77a5e-0b99-4ef7-a652-c5335647cd3b"
+        LastKnownName="t"
+        LastKnownLocation="Package2_1224.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
