@@ -81,7 +81,7 @@ namespace RestaurantAppVersion4.Model
 
         public void AddKommentarTwo(string text)
         {
-            _kommentarKatalog.Add(new KommentarModel(text));
+            _kommentarKatalog.Add(new KommentarModel(1, text));
             OnPropertyChanged("KommentarKatalog");
         }
 

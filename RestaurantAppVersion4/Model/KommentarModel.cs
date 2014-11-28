@@ -14,10 +14,10 @@ namespace RestaurantAppVersion4.Model
         private string _comText;
         private int _comRating;
 
-        public KommentarModel(string comText)
+        public KommentarModel(int comRating, string comText)
         {
+            _comRating = comRating;
             _comText = comText;
-            
         }
 
         public string ComText
