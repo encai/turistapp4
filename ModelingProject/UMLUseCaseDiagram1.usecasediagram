@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="5a350ed9-303e-4411-ab0f-d65342d47aee" name="UMLUseCaseDiagram1" linkedPackageId="be288924-598c-4b96-b572-cb12169fef17" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="4c2cd7cd-28e8-4546-b4cb-0496344ccdcd">
+      <profileInstance Id="0af0c34b-7136-4478-92c8-e8b6b0a75607" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="0ce719d9-a01b-4bdc-83bd-afb009bddf0a">
+      <profileInstance Id="f2d953db-d260-4c48-ba19-3d42150eed28" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="3505542e-6b61-4cc3-914d-6ffaed4c410e" name="Actor1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d8dd5bce-ae79-454a-9d4a-fa93ab892054" />
+        <targetEnds>
+          <association Id="4faa200d-a5b8-4de1-b81c-b3225d56a73e" isDerived="false" sourceEndRoleName="Actor1" targetEndRoleName="UseCase1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="be06d3aa-9cf9-4155-a8af-98d639d3bedf" LastKnownName="Add'er kommentar" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c606e92f-ce16-4ed9-8362-ee1e7f1102a3" name="Actor1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e7ca636d-4ab9-47fa-9511-857f1ef89a60" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6a4a1c60-02b6-4e49-9acd-6c50a183e86f" name="UseCase1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bb883533-a9ff-4a7d-94f3-6721affff920" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="71ba1ce2-dfc1-47d6-ad08-3cc10137e0dd" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="be06d3aa-9cf9-4155-a8af-98d639d3bedf" name="Add'er kommentar" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5e1b9f1f-ba35-4ba4-9607-7cbc2f9f4f3e" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="be288924-598c-4b96-b572-cb12169fef17" name="ModelingProject">
+    <elementDefinition Id="1331c540-a183-4a8d-bc98-a9272bbc67d4" />
+  </package>
+</useCaseModelRoot>
