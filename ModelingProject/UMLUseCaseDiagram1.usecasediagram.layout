@@ -6,11 +6,11 @@
       <actorMoniker Id="3505542e-6b61-4cc3-914d-6ffaed4c410e" LastKnownName="Actor1" />
       <relativeChildShapes />
     </actorShape>
-    <useCaseShape Id="80fb0b0d-dbea-49d9-b579-7271892e423f" absoluteBounds="4.875, 2.625, 1, 0.625" customColor="238, 237, 131" heightOffset="0">
+    <useCaseShape Id="80fb0b0d-dbea-49d9-b579-7271892e423f" absoluteBounds="5, 1.875, 1, 0.625" customColor="238, 237, 131" heightOffset="0">
       <useCaseMoniker Id="be06d3aa-9cf9-4155-a8af-98d639d3bedf" LastKnownName="Add'er kommentar" />
       <relativeChildShapes />
     </useCaseShape>
-    <useCaseAssociationConnector edgePoints="[(3 : 2.42119565217391); (4.90275160164692 : 2.83483730470585)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(3 : 2.29166666666667); (5.00110742107169 : 2.20828719078868)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="4faa200d-a5b8-4de1-b81c-b3225d56a73e" />
       <relativeChildShapes />
       <nodes>

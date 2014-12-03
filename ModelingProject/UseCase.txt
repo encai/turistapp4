@@ -1,0 +1,5 @@
+
+Brugeren henter appen.
+Brugeren vælger kategori. 
+Brugeren vælger en restaurant.
+Brugeren add'er en kommentar.

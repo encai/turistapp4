@@ -75,44 +75,41 @@
         </Style>
         <Color x:Key="Blåfarve">#FF209ECD</Color>
     </Page.Resources>
-	<Page.BottomAppBar>
-		<AppBar>
-			<Grid>
-				<Grid.ColumnDefinitions>
-					<ColumnDefinition/>
-					<ColumnDefinition/>
-				</Grid.ColumnDefinitions>
-				<StackPanel Orientation="Horizontal">
-					<AppBarButton HorizontalAlignment="Stretch" Icon="Download" Label="Indlæs" VerticalAlignment="Stretch" Command="{Binding LoadCommand}">
-						<AppBarButton.DataContext>
-							<ViewModel:MainViewModel/>
-						</AppBarButton.DataContext>
-					</AppBarButton>
-				</StackPanel>
-				<StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal">
-					<AppBarButton HorizontalAlignment="Stretch" Icon="Accept" Label="Gem" VerticalAlignment="Stretch" Command="{Binding SaveCommand}">
-						<AppBarButton.DataContext>
-							<ViewModel:MainViewModel/>
-						</AppBarButton.DataContext>
-					</AppBarButton>
-				</StackPanel>
-			</Grid>
-		</AppBar>
-	</Page.BottomAppBar>
+    <Page.BottomAppBar>
+        <AppBar>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal">
+                    <AppBarButton HorizontalAlignment="Stretch" Icon="Download" Label="Indlæs" VerticalAlignment="Stretch" Command="{Binding LoadCommand}">
+                        <AppBarButton.DataContext>
+                            <ViewModel:MainViewModel/>
+                        </AppBarButton.DataContext>
+                    </AppBarButton>
+                </StackPanel>
+                <StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal">
+                    <AppBarButton HorizontalAlignment="Stretch" Icon="Accept" Label="Gem" VerticalAlignment="Stretch" Command="{Binding SaveCommand}">
+                        <AppBarButton.DataContext>
+                            <ViewModel:MainViewModel/>
+                        </AppBarButton.DataContext>
+                    </AppBarButton>
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
 
     <!--
         This grid acts as a root panel for the page that defines two rows:
         * Row 0 contains the back button and page title
         * Row 1 contains the rest of the page layout
     -->
-    <Grid x:Name="frontpagegrid2">
+    <Grid x:Name="frontpagegrid2" Background="#FF209ECD">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="190*"/>
             <ColumnDefinition Width="493*"/>
         </Grid.ColumnDefinitions>
-        <Grid.Background>
-            <SolidColorBrush Color="{StaticResource Blåfarve}"/>
-        </Grid.Background>
         <Grid.ChildrenTransitions>
             <TransitionCollection>
                 <EntranceThemeTransition/>

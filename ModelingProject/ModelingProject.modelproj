@@ -52,6 +52,9 @@
       <SubType>Content</SubType>
       <DependentUpon>UMLUseCaseDiagram1.usecasediagram</DependentUpon>
     </Content>
+    <Content Include="UseCase.txt">
+      <SubType>Content</SubType>
+    </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="DomainModel.classdiagram">
       <SubType>Content</SubType>
